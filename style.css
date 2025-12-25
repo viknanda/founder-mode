@@ -49,18 +49,24 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Transparent header */
-  background: linear-gradient(to bottom, rgba(13, 13, 13, 0.9), transparent);
   position: sticky;
   top: 0;
   z-index: 1000;
-
-  /* Click Hygiene: Allow clicks to pass through empty space */
-  pointer-events: none;
+  /* Position relative for pseudo-element */
+  position: relative;
 }
 
-.app-header>* {
-  pointer-events: auto;
+/* Gradient background as pseudo-element to prevent click blocking */
+.app-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(13, 13, 13, 0.9), transparent);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .logo {
@@ -75,19 +81,12 @@ a {
 }
 
 .update-timer {
-  /* Button Reset */
-  appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  outline: none;
-  /* Safari Click Fixes */
-  position: relative;
-  z-index: 120;
-  touch-action: manipulation;
+  /* Link styling */
+  display: inline-block;
+  text-decoration: none;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
-  display: inline-block;
 
   font-size: 0.8rem;
   color: var(--text-secondary);

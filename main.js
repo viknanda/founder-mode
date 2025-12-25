@@ -72,10 +72,9 @@ async function init() {
     updateTimer();
   }, 100);
 
-  // Click handler (Delegated for robustness)
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('#timer');
-    if (!btn) return;
+  // Global function for inline onclick (Safari compatibility)
+  window.handleRefreshClick = function () {
+    const btn = document.getElementById('timer');
 
     // 1. Advance content
     currentSeedIndex++;
@@ -85,10 +84,19 @@ async function init() {
     nextRefreshTime = Date.now() + ROTATION_MS;
 
     // Visual feedback
-    btn.style.borderColor = '#fff';
-    setTimeout(() => {
-      btn.style.borderColor = '#333';
-    }, 200);
+    if (btn) {
+      btn.style.borderColor = '#fff';
+      setTimeout(() => {
+        btn.style.borderColor = '#333';
+      }, 200);
+    }
+  };
+
+  // Also keep document listener as fallback
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('#timer');
+    if (!btn) return;
+    window.handleRefreshClick();
   });
 }
 
