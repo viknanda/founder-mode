@@ -48,13 +48,30 @@ async function init() {
     // Add inline ad as first item
     const inlineAd = document.createElement('div');
     inlineAd.className = 'inline-ad-container';
-    inlineAd.innerHTML = `
-      <div class="ad-label">Sponsored</div>
-      <div class="inline-ad-content">
-        <script async="async" data-cfasync="false" src="https://pl28331080.effectivegatecpm.com/16d519e41cde9c05d3cd957495dc0172/invoke.js"></script>
-        <div id="container-16d519e41cde9c05d3cd957495dc0172"></div>
-      </div>
-    `;
+
+    // Add "Sponsored" label
+    const adLabel = document.createElement('div');
+    adLabel.className = 'ad-label';
+    adLabel.textContent = 'Sponsored';
+    inlineAd.appendChild(adLabel);
+
+    // Create ad content container
+    const adContent = document.createElement('div');
+    adContent.className = 'inline-ad-content';
+
+    // Create ad script
+    const adScript = document.createElement('script');
+    adScript.async = true;
+    adScript.setAttribute('data-cfasync', 'false');
+    adScript.src = 'https://pl28331080.effectivegatecpm.com/16d519e41cde9c05d3cd957495dc0172/invoke.js';
+    adContent.appendChild(adScript);
+
+    // Create ad container div
+    const adContainer = document.createElement('div');
+    adContainer.id = 'container-16d519e41cde9c05d3cd957495dc0172';
+    adContent.appendChild(adContainer);
+
+    inlineAd.appendChild(adContent);
     feedContainer.appendChild(inlineAd);
 
     // Render tweets
