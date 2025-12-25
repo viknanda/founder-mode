@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The hottest hype tweets from the unicorn founders." />
+  <title>Founder Mode</title>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Google AdSense Placeholder -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2253112939782025"
+    crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="/assets/index-6VFyttWG.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C1O3KGui.css">
+</head>
+
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="logo">FOUNDER<span class="highlight">.MODE</span></div>
+      <div class="update-timer" id="timer">Let's Go 🚀: --:--</div>
+      <!-- No tabs anymore -->
+    </header>
+
+    <main class="feed-container" id="feed">
+      <!-- Tweets will be injected here -->
+    </main>
+
+    <footer class="app-footer">
+      <p>Made with ❤️ in the 🇺🇸 by Antigravity. May not be accurate but that doesn't stop you from locking in to
+        Founder Mode!</p>
+    </footer>
+  </div>
+
+  <!-- Tweet Template -->
+  <template id="tweet-template">
+    <article class="tweet-card">
+      <a class="tweet-header" href="#" target="_blank" rel="noopener noreferrer">
+        <img class="avatar" src="" alt="Avatar">
+        <div class="user-info">
+          <span class="name"></span>
+          <span class="handle"></span>
+        </div>
+      </a>
+      <div class="tweet-body">
+        <div class="tweet-content"></div>
+        <span class="time"></span>
+      </div>
+      <div class="tweet-stats">
+        <div class="stat"><span class="icon">💬</span><span class="replies"></span></div>
+        <div class="stat"><span class="icon">❤️</span><span class="likes"></span></div>
+      </div>
+    </article>
+  </template>
+
+  <!-- Ad Template -->
+  <template id="ad-template">
+    <div class="ad-unit">
+      <div class="ad-label">Sponsored</div>
+      <div class="ad-content">
+        <!-- AdSense Unit -->
+        <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86"
+          data-ad-client="ca-pub-2253112939782025" data-ad-slot="6903296525"></ins>
+        <div class="ad-placeholder-text">Google Ads Space</div>
+      </div>
+    </div>
+  </template>
+
+</body>
+
+</html>

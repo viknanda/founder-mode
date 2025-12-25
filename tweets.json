@@ -1,0 +1,327 @@
+[
+    {
+        "id": 1,
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Naval&backgroundColor=c0aede",
+        "content": "Wealth is assets that earn while you sleep.",
+        "time": "2018-05-31",
+        "stats": {
+            "replies": "200",
+            "likes": "150k"
+        },
+        "companyUrl": "https://nav.al"
+    },
+    {
+        "id": 2,
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elon&backgroundColor=b6e3f4",
+        "content": "The birds are freed.",
+        "time": "2022-10-27",
+        "stats": {
+            "replies": "100k",
+            "likes": "2.5M"
+        },
+        "companyUrl": "https://x.com"
+    },
+    {
+        "id": 3,
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Paul&backgroundColor=ffdfbf",
+        "content": "The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work.",
+        "time": "2021-02-15",
+        "stats": {
+            "replies": "300",
+            "likes": "25k"
+        },
+        "companyUrl": "https://ycombinator.com"
+    },
+    {
+        "id": 4,
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marc&backgroundColor=ffdfbf",
+        "content": "It is time to build.",
+        "time": "2020-04-18",
+        "stats": {
+            "replies": "2k",
+            "likes": "45k"
+        },
+        "companyUrl": "https://a16z.com"
+    },
+    {
+        "id": 5,
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Naval&backgroundColor=c0aede",
+        "content": "Play long-term games with long-term people.",
+        "time": "2018-05-31",
+        "stats": {
+            "replies": "500",
+            "likes": "80k"
+        },
+        "companyUrl": "https://nav.al"
+    },
+    {
+        "id": 6,
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elon&backgroundColor=b6e3f4",
+        "content": "Next I’m buying Coca-Cola to put the cocaine back in.",
+        "time": "2022-04-27",
+        "stats": {
+            "replies": "200k",
+            "likes": "4.7M"
+        },
+        "companyUrl": "https://x.com"
+    },
+    {
+        "id": 7,
+        "name": "Sam Altman",
+        "handle": "@sama",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sam&backgroundColor=c0aede",
+        "content": "ChatGPT.",
+        "time": "2022-11-30",
+        "stats": {
+            "replies": "10k",
+            "likes": "150k"
+        },
+        "companyUrl": "https://openai.com"
+    },
+    {
+        "id": 8,
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Paul&backgroundColor=ffdfbf",
+        "content": "Live in the future, then build what's missing.",
+        "time": "2012-04-10",
+        "stats": {
+            "replies": "100",
+            "likes": "18k"
+        },
+        "companyUrl": "https://ycombinator.com"
+    },
+    {
+        "id": 9,
+        "name": "Vitalik Buterin",
+        "handle": "@VitalikButerin",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vitalik&backgroundColor=c0aede",
+        "content": "To be clear, at this point I'm quite confident that many of the 'Ethereum Killers' are centralized databases with a blockchain attached.",
+        "time": "2020-06-25",
+        "stats": {
+            "replies": "3k",
+            "likes": "40k"
+        },
+        "companyUrl": "https://ethereum.org"
+    },
+    {
+        "id": 10,
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Naval&backgroundColor=c0aede",
+        "content": "Specific knowledge cannot be taught, but it can be learned.",
+        "time": "2018-05-31",
+        "stats": {
+            "replies": "150",
+            "likes": "60k"
+        },
+        "companyUrl": "https://nav.al"
+    },
+    {
+        "id": 11,
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elon&backgroundColor=b6e3f4",
+        "content": "Funding secured.",
+        "time": "2018-08-07",
+        "stats": {
+            "replies": "50k",
+            "likes": "120k"
+        },
+        "companyUrl": "https://x.com"
+    },
+    {
+        "id": 12,
+        "name": "Jack Dorsey",
+        "handle": "@jack",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jack&backgroundColor=ffdfbf",
+        "content": "just setting up my twttr",
+        "time": "2006-03-21",
+        "stats": {
+            "replies": "100k",
+            "likes": "180k"
+        },
+        "companyUrl": "https://block.xyz"
+    },
+    {
+        "id": 13,
+        "name": "Garry Tan",
+        "handle": "@garrytan",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Garry&backgroundColor=ffdfbf",
+        "content": "Learn to code. It's the new literacy.",
+        "time": "2019-01-15",
+        "stats": {
+            "replies": "200",
+            "likes": "10k"
+        },
+        "companyUrl": "https://ycombinator.com"
+    },
+    {
+        "id": 14,
+        "name": "Satosh Nakamoto",
+        "handle": "@satoshi",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Satoshi&backgroundColor=cccccc",
+        "content": "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.",
+        "time": "2008-10-31",
+        "stats": {
+            "replies": "10M",
+            "likes": "100M"
+        },
+        "companyUrl": "https://bitcoin.org"
+    },
+    {
+        "id": 15,
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Naval&backgroundColor=c0aede",
+        "content": "The closer you want to get to me, the better your values have to be.",
+        "time": "2020-08-12",
+        "stats": {
+            "replies": "300",
+            "likes": "35k"
+        },
+        "companyUrl": "https://nav.al"
+    },
+    {
+        "id": 16,
+        "name": "Balaji",
+        "handle": "@balajis",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Balaji&backgroundColor=b6e3f4",
+        "content": "Code is law. Law is code.",
+        "time": "2021-05-20",
+        "stats": {
+            "replies": "400",
+            "likes": "15k"
+        },
+        "companyUrl": "https://thenetworkstate.com"
+    },
+    {
+        "id": 17,
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Paul&backgroundColor=ffdfbf",
+        "content": "Startups are hard.",
+        "time": "2010-06-05",
+        "stats": {
+            "replies": "50",
+            "likes": "5k"
+        },
+        "companyUrl": "https://ycombinator.com"
+    },
+    {
+        "id": 18,
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elon&backgroundColor=b6e3f4",
+        "content": "🚀 Mars Awaits.",
+        "time": "2016-09-27",
+        "stats": {
+            "replies": "10k",
+            "likes": "500k"
+        },
+        "companyUrl": "https://spacex.com"
+    },
+    {
+        "id": 19,
+        "name": "Sam Altman",
+        "handle": "@sama",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sam&backgroundColor=c0aede",
+        "content": "I believe AI is going to be the biggest technological shift of our lifetimes.",
+        "time": "2023-01-10",
+        "stats": {
+            "replies": "5k",
+            "likes": "88k"
+        },
+        "companyUrl": "https://openai.com"
+    },
+    {
+        "id": 20,
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Naval&backgroundColor=c0aede",
+        "content": "Impatience with actions, patience with results.",
+        "time": "2019-03-15",
+        "stats": {
+            "replies": "120",
+            "likes": "45k"
+        },
+        "companyUrl": "https://nav.al"
+    },
+    {
+        "id": 21,
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Paul&backgroundColor=ffdfbf",
+        "content": "If you want to make money at some point, remember this, because this is one of the reasons startups win. Big companies want to decrease the standard deviation of design outcomes.",
+        "time": "2011-03-21",
+        "stats": {
+            "replies": "80",
+            "likes": "12k"
+        },
+        "companyUrl": "https://ycombinator.com"
+    },
+    {
+        "id": 22,
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elon&backgroundColor=b6e3f4",
+        "content": "Occupy Mars.",
+        "time": "2018-09-02",
+        "stats": {
+            "replies": "50k",
+            "likes": "1.2M"
+        },
+        "companyUrl": "https://spacex.com"
+    },
+    {
+        "id": 23,
+        "name": "Balaji",
+        "handle": "@balajis",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Balaji&backgroundColor=b6e3f4",
+        "content": "Fiat money is a bubble that has been inflating for 50 years.",
+        "time": "2020-09-09",
+        "stats": {
+            "replies": "700",
+            "likes": "22k"
+        },
+        "companyUrl": "https://thenetworkstate.com"
+    },
+    {
+        "id": 24,
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Naval&backgroundColor=c0aede",
+        "content": "You're not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom.",
+        "time": "2018-05-31",
+        "stats": {
+            "replies": "1k",
+            "likes": "200k"
+        },
+        "companyUrl": "https://nav.al"
+    },
+    {
+        "id": 25,
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marc&backgroundColor=ffdfbf",
+        "content": "Software is eating the world.",
+        "time": "2011-08-20",
+        "stats": {
+            "replies": "1.5k",
+            "likes": "60k"
+        },
+        "companyUrl": "https://a16z.com"
+    }
+]
