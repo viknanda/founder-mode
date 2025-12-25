@@ -1,8 +1,7 @@
 // Removed static import
 // import tweetsData from './tweets.json';
 
-const AD_INTERVAL = 5;
-const TWEETS_PER_BATCH = 100; // Updated to 100
+const TWEETS_PER_BATCH = 100;
 const ROTATION_MS = 30000; // 30 seconds
 
 // let userOffset = 0; // Removed in refactor
@@ -11,11 +10,10 @@ let tweetsData = []; // State for fetched data
 async function init() {
   const feedContainer = document.getElementById('feed');
   const tweetTemplate = document.getElementById('tweet-template');
-  const adTemplate = document.getElementById('ad-template');
   const timerElement = document.getElementById('timer');
 
-  if (!feedContainer || !tweetTemplate || !adTemplate) {
-    console.error("Missing DOM elements", { feedContainer, tweetTemplate, adTemplate });
+  if (!feedContainer || !tweetTemplate) {
+    console.error("Missing DOM elements", { feedContainer, tweetTemplate });
     return;
   }
 
@@ -46,7 +44,7 @@ async function init() {
 
     // Clear & Render
     feedContainer.innerHTML = '';
-    renderFeed(currentTweets, feedContainer, tweetTemplate, adTemplate);
+    renderFeed(currentTweets, feedContainer, tweetTemplate);
   }
 
   function updateTimer() {
@@ -156,10 +154,8 @@ function getSeededSubset(allTweets, seedKey, count) {
 
 /* --- Rendering --- */
 
-function renderFeed(tweets, container, tTemplate, aTemplate) {
-  console.log('Rendering Feed with', tweets.length, 'tweets');
+function renderFeed(tweets, container, tTemplate) {
   tweets.forEach((tweet, index) => {
-    console.log('Rendering tweet:', tweet.id);
     // 1. Determine size
     const likesCount = parseStats(tweet.stats.likes);
     let sizeClass = '';
@@ -173,13 +169,6 @@ function renderFeed(tweets, container, tTemplate, aTemplate) {
     // 2. Render Tweet
     const tweetNode = createTweetElement(tweet, tTemplate, sizeClass);
     container.appendChild(tweetNode);
-
-    // 3. Render Ad
-    if ((index + 1) % AD_INTERVAL === 0) {
-      const adNode = createAdElement(aTemplate);
-      if (Math.random() > 0.5) adNode.firstElementChild.classList.add('tile-wide');
-      container.appendChild(adNode);
-    }
   });
 }
 
@@ -218,7 +207,3 @@ function createTweetElement(data, template, sizeClass) {
   return clone;
 }
 
-function createAdElement(template) {
-  const clone = template.content.cloneNode(true);
-  return clone;
-}
