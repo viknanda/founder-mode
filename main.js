@@ -72,8 +72,11 @@ async function init() {
     updateTimer();
   }, 100);
 
-  // Click handler
-  timerElement.addEventListener('click', () => {
+  // Click handler (Delegated for robustness)
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('#timer');
+    if (!btn) return;
+
     // 1. Advance content
     currentSeedIndex++;
     updateFeed();
@@ -82,9 +85,9 @@ async function init() {
     nextRefreshTime = Date.now() + ROTATION_MS;
 
     // Visual feedback
-    timerElement.style.borderColor = '#fff';
+    btn.style.borderColor = '#fff';
     setTimeout(() => {
-      timerElement.style.borderColor = '#333';
+      btn.style.borderColor = '#333';
     }, 200);
   });
 }

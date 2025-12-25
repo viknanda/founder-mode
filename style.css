@@ -27,6 +27,8 @@ body {
   font-family: var(--font-main);
   line-height: 1.4;
   overflow-x: hidden;
+  /* Helps event bubbling on iOS/Safari */
+  cursor: pointer;
 }
 
 a {
@@ -52,9 +54,6 @@ a {
   position: sticky;
   top: 0;
   z-index: 1000;
-  /* Safari Stacking Context Fix */
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
 
   /* Click Hygiene: Allow clicks to pass through empty space */
   pointer-events: none;
