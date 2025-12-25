@@ -267,6 +267,21 @@ a {
   .tile-large .tweet-content {
     font-size: 1.2rem;
   }
+
+  /* Mobile header spacing */
+  .app-header {
+    padding: 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .update-timer {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
 }
 
 /* Footer Styling */
