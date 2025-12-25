@@ -22,7 +22,11 @@ async function init() {
   // Fetch Data
   try {
     const response = await fetch('/tweets.json');
-    tweetsData = await response.json();
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const text = await response.text();
+    tweetsData = JSON.parse(text);
     console.log(`Loaded ${tweetsData.length} tweets.`);
   } catch (err) {
     console.error("Failed to load tweets:", err);
