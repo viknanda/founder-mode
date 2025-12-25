@@ -79,6 +79,9 @@ a {
   z-index: 120;
   touch-action: manipulation;
   cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  display: inline-block;
 
   font-size: 0.8rem;
   color: var(--text-secondary);
