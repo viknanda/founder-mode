@@ -5,7 +5,7 @@ const AD_INTERVAL = 5;
 const TWEETS_PER_BATCH = 100; // Updated to 100
 const ROTATION_MS = 30000; // 30 seconds
 
-let userOffset = 0; // Allows user to manually "skip" ahead
+// let userOffset = 0; // Removed in refactor
 let tweetsData = []; // State for fetched data
 
 async function init() {
@@ -30,16 +30,12 @@ async function init() {
     return;
   }
 
-  // State to track auto-updates
-  let lastEpoch = 0;
-
+  // State
+  let currentSeedIndex = Math.floor(Date.now() / ROTATION_MS); // Start from current wall time
+  let nextRefreshTime = Date.now() + ROTATION_MS; // Initial full 30s
 
   function updateFeed() {
-    // Calculate Seed
-    const epoch = Math.floor(Date.now() / ROTATION_MS);
-    lastEpoch = epoch;
-
-    const seedKey = `epoch-${epoch + userOffset}`;
+    const seedKey = `epoch-${currentSeedIndex}`;
 
     // Select Tweets
     const currentTweets = getSeededSubset(tweetsData, seedKey, TWEETS_PER_BATCH);
@@ -51,8 +47,16 @@ async function init() {
 
   function updateTimer() {
     const now = Date.now();
-    const nextFlush = Math.ceil(now / ROTATION_MS) * ROTATION_MS;
-    const msLeft = nextFlush - now;
+    const msLeft = nextRefreshTime - now;
+
+    // Auto-advance if time is up
+    if (msLeft <= 0) {
+      currentSeedIndex++;
+      nextRefreshTime = now + ROTATION_MS;
+      updateFeed();
+      return;
+    }
+
     const secsLeft = Math.ceil(msLeft / 1000);
 
     if (timerElement) {
@@ -66,17 +70,16 @@ async function init() {
   // Timer Loop
   setInterval(() => {
     updateTimer();
-    // Check if we entered a new epoch automatically
-    const currentEpoch = Math.floor(Date.now() / ROTATION_MS);
-    if (lastEpoch !== currentEpoch) {
-      updateFeed();
-    }
-  }, 100); // 100ms for smooth timer
+  }, 100);
 
   // Click handler
   timerElement.addEventListener('click', () => {
-    userOffset++;
+    // 1. Advance content
+    currentSeedIndex++;
     updateFeed();
+
+    // 2. Reset Timer to full 30s
+    nextRefreshTime = Date.now() + ROTATION_MS;
 
     // Visual feedback
     timerElement.style.borderColor = '#fff';

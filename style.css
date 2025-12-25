@@ -52,6 +52,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
+  /* Safari Stacking Context Fix */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .logo {
@@ -71,6 +74,11 @@ a {
   -webkit-appearance: none;
   border: none;
   outline: none;
+  /* Safari Click Fixes */
+  position: relative;
+  z-index: 120;
+  touch-action: manipulation;
+  cursor: pointer;
 
   font-size: 0.8rem;
   color: var(--text-secondary);
@@ -79,8 +87,6 @@ a {
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  /* Clickable */
   transition: all 0.2s;
 }
 
