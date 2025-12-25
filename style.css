@@ -66,6 +66,12 @@ a {
 }
 
 .update-timer {
+  /* Button Reset */
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+
   font-size: 0.8rem;
   color: var(--text-secondary);
   font-family: var(--font-mono);
