@@ -106,11 +106,9 @@ async function init() {
     const now = Date.now();
     const msLeft = nextRefreshTime - now;
 
-    // Auto-advance if time is up
+    // Auto-advance if time is up - trigger full page reload
     if (msLeft <= 0) {
-      currentSeedIndex++;
-      nextRefreshTime = now + ROTATION_MS;
-      updateFeed();
+      location.reload();
       return;
     }
 
