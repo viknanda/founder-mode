@@ -51,6 +51,8 @@ a {
   align-items: center;
   background: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
+  position: relative;
+  /* Fix for absolute pseudo-element overlay */
 }
 
 /* Gradient background as pseudo-element to prevent click blocking */

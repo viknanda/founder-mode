@@ -326,7 +326,10 @@ function createTweetElement(data, template, sizeClass) {
 
   const headerLink = clone.querySelector('.tweet-header');
   const handle = data.handle.replace('@', '');
-  headerLink.href = `https://x.com/${handle}`;
+  // Update headerLink.href to use companyUrl if available, otherwise default to X.com profile
+  if (headerLink) {
+    headerLink.href = data.companyUrl || `https://x.com/${handle}`;
+  }
 
   const img = clone.querySelector('.avatar');
   img.src = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(data.name)}`;
@@ -337,10 +340,36 @@ function createTweetElement(data, template, sizeClass) {
   clone.querySelector('.time').textContent = formatDate(data.time);
   clone.querySelector('.tweet-content').textContent = data.content;
 
-  clone.querySelector('.replies').textContent = data.stats.replies;
-  clone.querySelector('.likes').textContent = data.stats.likes;
+  // Stats - Hex & Flame Mode
+  const likesContainer = clone.querySelector('.stat');
+  if (likesContainer) {
+    const likesEl = likesContainer.querySelector('.likes');
+    if (likesEl) {
+      likesEl.textContent = toHex(data.stats.likes);
+    }
+  }
+  // Remove replies logic as per instruction
+  // clone.querySelector('.replies').textContent = data.stats.replies;
 
   return clone;
+}
+
+function toHex(statString) {
+  let num;
+  if (typeof statString === 'string') {
+    if (statString.toUpperCase().includes('M')) {
+      num = parseFloat(statString) * 1000000;
+    } else if (statString.toUpperCase().includes('K')) {
+      num = parseFloat(statString) * 1000;
+    } else {
+      num = parseInt(statString.replace(/,/g, ''), 10);
+    }
+  } else {
+    num = statString;
+  }
+
+  if (isNaN(num)) return '0x0';
+  return '0x' + Math.floor(num).toString(16).toUpperCase();
 }
 
 function formatDate(dateString) {
@@ -348,4 +377,3 @@ function formatDate(dateString) {
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   return `${months[date.getMonth()]} ${date.getFullYear()}`;
 }
-
