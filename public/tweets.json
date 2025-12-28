@@ -8565,5 +8565,122 @@
             "replies": "9.2k"
         },
         "companyUrl": "https://x.com"
+    },
+    {
+        "id": "2005363490320764993",
+        "name": "signüll",
+        "handle": "@signulll",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sign%C3%BCll",
+        "content": "mckinsey consultants “learn” your business by strip mining you. they have already done the same thing to your competitors. \n\nthen they package everyone’s secrets as best practices & sell them back into the same market like some bizarre intellectual arbitrage.\n\nremarkable.",
+        "time": "2025-12-28T19:41:28.000Z",
+        "stats": {
+            "likes": "1332",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/signulll"
+    },
+    {
+        "id": "2005353145128583447",
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Andrej%20Karpathy",
+        "content": "Aggressively JIT your work. It's not about the task at hand X, it's a little bit about X but mostly about how you should have had to contribute ~no latency and ~no actions. It's digital factorio time.",
+        "time": "2025-12-28T19:00:22.000Z",
+        "stats": {
+            "likes": "2810",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/karpathy"
+    },
+    {
+        "id": "2005056638580129886",
+        "name": "Adam",
+        "handle": "@adamdotdev",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Adam",
+        "content": "Man how lucky are millennial devs, just as we’re getting too old and tired for this job, all the tedium gets magically removed and there’s an amplifier that makes all of our knowledge 1000x more useful (and necessary)",
+        "time": "2025-12-27T23:22:09.000Z",
+        "stats": {
+            "likes": "4500",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/adamdotdev"
+    },
+    {
+        "id": "2005312964015042806",
+        "name": "Yuri Sagalov",
+        "handle": "@yuris",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Yuri%20Sagalov",
+        "content": "My favorite genre of fiction are end of year VC predictions",
+        "time": "2025-12-28T16:20:42.000Z",
+        "stats": {
+            "likes": "36",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/yuris"
+    },
+    {
+        "id": "1617979122625712128",
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Andrej%20Karpathy",
+        "content": "The hottest new programming language is English",
+        "time": "2023-01-24T20:14:18.000Z",
+        "stats": {
+            "likes": "51817",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/karpathy"
+    },
+    {
+        "id": "2004992293905072282",
+        "name": "Mr. S.T.A.R.",
+        "handle": "@favelaoverlord",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Mr.%20S.T.A.R.",
+        "content": "I think I was probably wrong about AI. It seems that serious white collar job losses are likely.",
+        "time": "2025-12-27T19:06:28.000Z",
+        "stats": {
+            "likes": "2003",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/favelaoverlord"
+    },
+    {
+        "id": "2005140787663962309",
+        "name": "NIK",
+        "handle": "@ns123abc",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=NIK",
+        "content": "2026 is officially the start of the third industrial revolution",
+        "time": "2025-12-28T04:56:32.000Z",
+        "stats": {
+            "likes": "2292",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ns123abc"
+    },
+    {
+        "id": "2005278057616269724",
+        "name": "Pratham",
+        "handle": "@Prathkum",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pratham",
+        "content": "We are finally realizing that a developer’s real value isn't their ability to write code, but their creative intent.",
+        "time": "2025-12-28T14:01:59.000Z",
+        "stats": {
+            "likes": "216",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/Prathkum"
+    },
+    {
+        "id": "2005297207805964477",
+        "name": "sunny madra",
+        "handle": "@sundeep",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sunny%20madra",
+        "content": "Decentralized DOGE",
+        "time": "2025-12-27T22:53:27.000Z",
+        "stats": {
+            "likes": "111",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/sundeep"
     }
 ]

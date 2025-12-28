@@ -3,6 +3,9 @@ import fs from 'fs';
 import path from 'path';
 
 // Config
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DROPS_FILE = path.join(__dirname, '../drops.txt');
 const ARCHIVE_FILE = path.join(__dirname, '../drops_archive.txt');
 const TWEETS_FILE = path.join(__dirname, '../public/tweets.json');
