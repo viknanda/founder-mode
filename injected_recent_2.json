@@ -1,0 +1,530 @@
+[
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "AI agents will function as an intelligent layer on top of existing systems.",
+        "time": "2025-07-15",
+        "stats": {
+            "likes": "4.5k",
+            "replies": "320"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "2025 is day one for enterprise AI agent adoption.",
+        "time": "2025-08-10",
+        "stats": {
+            "likes": "3.8k",
+            "replies": "210"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "90% of the work AI will perform is work humans were not doing previously.",
+        "time": "2025-11-20",
+        "stats": {
+            "likes": "5.2k",
+            "replies": "450"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "We are entering the era of systems of intelligence.",
+        "time": "2025-10-05",
+        "stats": {
+            "likes": "2.9k",
+            "replies": "150"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "2026 is expected to be a significant year for embodied AI.",
+        "time": "2025-09-15",
+        "stats": {
+            "likes": "1.8k",
+            "replies": "120"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "Grounding with Google Search provides fresher and more accurate responses.",
+        "time": "2025-05-20",
+        "stats": {
+            "likes": "2.5k",
+            "replies": "200"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "Figure 02 robots are now operational full-time at BMW's factory.",
+        "time": "2025-01-10",
+        "stats": {
+            "likes": "15k",
+            "replies": "800"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "We just had a major breakthrough with our in-house AI system, Helix.",
+        "time": "2025-02-15",
+        "stats": {
+            "likes": "12k",
+            "replies": "650"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "My goal is for robots to be ready for home use by 2026.",
+        "time": "2025-03-01",
+        "stats": {
+            "likes": "25k",
+            "replies": "2.5k"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "Humanoids will outnumber humans in workplaces within a decade.",
+        "time": "2025-04-10",
+        "stats": {
+            "likes": "18k",
+            "replies": "1.2k"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "Decreasing battery prices are the key to the affordable EV.",
+        "time": "2025-04-15",
+        "stats": {
+            "likes": "3.2k",
+            "replies": "400"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "FSD Beta is improving at an exponential rate.",
+        "time": "2025-06-20",
+        "stats": {
+            "likes": "5.5k",
+            "replies": "800"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Jack Dorsey",
+        "handle": "@jack",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jack Dorsey",
+        "content": "Nostr is freedom technology.",
+        "time": "2025-05-15",
+        "stats": {
+            "likes": "12k",
+            "replies": "1.5k"
+        },
+        "companyUrl": "https://nostr.com"
+    },
+    {
+        "name": "Jack Dorsey",
+        "handle": "@jack",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jack Dorsey",
+        "content": "Censorship resistance is the most important feature of the internet.",
+        "time": "2025-01-20",
+        "stats": {
+            "likes": "28k",
+            "replies": "3k"
+        },
+        "companyUrl": "https://nostr.com"
+    },
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "Grok 3 is kind of scary smart.",
+        "time": "2025-02-28",
+        "stats": {
+            "likes": "450k",
+            "replies": "25k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "AGI could arrive as early as 2026.",
+        "time": "2025-08-10",
+        "stats": {
+            "likes": "320k",
+            "replies": "18k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Chamath Palihapitiya",
+        "handle": "@chamath",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Chamath",
+        "content": "You can fix capitalism. It is inherently numerical and objective.",
+        "time": "2025-09-12",
+        "stats": {
+            "likes": "15k",
+            "replies": "900"
+        },
+        "companyUrl": "https://allinpodcast.co"
+    },
+    {
+        "name": "Chamath Palihapitiya",
+        "handle": "@chamath",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Chamath",
+        "content": "Short term signals like hearts and likes are fake, brittle popularity.",
+        "time": "2025-07-15",
+        "stats": {
+            "likes": "22k",
+            "replies": "1.2k"
+        },
+        "companyUrl": "https://allinpodcast.co"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "The only way to predict the future is to build it.",
+        "time": "2025-01-01",
+        "stats": {
+            "likes": "4.5k",
+            "replies": "320"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "Enterprise software is about to get a lot more interesting.",
+        "time": "2025-02-10",
+        "stats": {
+            "likes": "3.1k",
+            "replies": "180"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "AI is lowering the barrier to entry for software creation.",
+        "time": "2025-03-05",
+        "stats": {
+            "likes": "2.8k",
+            "replies": "200"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "The cloud was act one. AI is act two.",
+        "time": "2025-05-12",
+        "stats": {
+            "likes": "5.5k",
+            "replies": "400"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aaron Levie",
+        "content": "Don't just automate old workflows. Reimagine them.",
+        "time": "2025-07-20",
+        "stats": {
+            "likes": "3.3k",
+            "replies": "250"
+        },
+        "companyUrl": "https://box.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "Gemini 1.5 Pro is a massive step forward.",
+        "time": "2025-02-15",
+        "stats": {
+            "likes": "2.2k",
+            "replies": "150"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "Developers are the new kingmakers.",
+        "time": "2025-04-01",
+        "stats": {
+            "likes": "1.9k",
+            "replies": "100"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "Open source models are closing the gap.",
+        "time": "2025-06-10",
+        "stats": {
+            "likes": "3.5k",
+            "replies": "300"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "The speed of AI progress is terrifying and exciting.",
+        "time": "2025-08-01",
+        "stats": {
+            "likes": "4.1k",
+            "replies": "450"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "handle": "@logankilpatrick",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan Kilpatrick",
+        "content": "Context windows are the new RAM.",
+        "time": "2025-09-20",
+        "stats": {
+            "likes": "2.7k",
+            "replies": "220"
+        },
+        "companyUrl": "https://google.com"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "The age of abundance is coming.",
+        "time": "2025-01-20",
+        "stats": {
+            "likes": "8.5k",
+            "replies": "600"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "Physical labor will become optional.",
+        "time": "2025-03-15",
+        "stats": {
+            "likes": "10k",
+            "replies": "900"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "Speed is the ultimate competitive advantage.",
+        "time": "2025-05-10",
+        "stats": {
+            "likes": "6.2k",
+            "replies": "400"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "Hardware is hard, but AI is harder.",
+        "time": "2025-07-25",
+        "stats": {
+            "likes": "7.8k",
+            "replies": "550"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Brett Adcock",
+        "handle": "@adcock_brett",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brett Adcock",
+        "content": "We are building the workforce of the future.",
+        "time": "2025-09-30",
+        "stats": {
+            "likes": "9.1k",
+            "replies": "700"
+        },
+        "companyUrl": "https://figure.ai"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "Tesla is more than a car company.",
+        "time": "2025-02-05",
+        "stats": {
+            "likes": "4.2k",
+            "replies": "500"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "The 4680 cell is a manufacturing revolution.",
+        "time": "2025-04-20",
+        "stats": {
+            "likes": "3.5k",
+            "replies": "350"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "Robotaxis will change urban planning forever.",
+        "time": "2025-06-15",
+        "stats": {
+            "likes": "5.1k",
+            "replies": "600"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "Autonomy is the endgame.",
+        "time": "2025-08-10",
+        "stats": {
+            "likes": "4.8k",
+            "replies": "550"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Farzad Mesbahi",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad Mesbahi",
+        "content": "Don't bet against Elon.",
+        "time": "2025-10-01",
+        "stats": {
+            "likes": "6.5k",
+            "replies": "800"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "name": "Jack Dorsey",
+        "handle": "@jack",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jack Dorsey",
+        "content": "Bitcoin is the native currency of the internet.",
+        "time": "2025-11-15",
+        "stats": {
+            "likes": "35k",
+            "replies": "4k"
+        },
+        "companyUrl": "https://nostr.com"
+    },
+    {
+        "name": "Jack Dorsey",
+        "handle": "@jack",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jack Dorsey",
+        "content": "Own your own data.",
+        "time": "2025-02-20",
+        "stats": {
+            "likes": "22k",
+            "replies": "2.5k"
+        },
+        "companyUrl": "https://nostr.com"
+    },
+    {
+        "name": "Jack Dorsey",
+        "handle": "@jack",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jack Dorsey",
+        "content": "Open protocols > Platforms.",
+        "time": "2025-05-01",
+        "stats": {
+            "likes": "28k",
+            "replies": "3.2k"
+        },
+        "companyUrl": "https://nostr.com"
+    },
+    {
+        "name": "Chamath Palihapitiya",
+        "handle": "@chamath",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Chamath",
+        "content": "The Fed is playing with fire.",
+        "time": "2025-03-10",
+        "stats": {
+            "likes": "18k",
+            "replies": "1.5k"
+        },
+        "companyUrl": "https://allinpodcast.co"
+    },
+    {
+        "name": "Chamath Palihapitiya",
+        "handle": "@chamath",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Chamath",
+        "content": "Deep tech is where the alpha is.",
+        "time": "2025-06-25",
+        "stats": {
+            "likes": "14k",
+            "replies": "900"
+        },
+        "companyUrl": "https://allinpodcast.co"
+    },
+    {
+        "name": "Chamath Palihapitiya",
+        "handle": "@chamath",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Chamath",
+        "content": "Authenticity is the new currency.",
+        "time": "2025-08-15",
+        "stats": {
+            "likes": "25k",
+            "replies": "2k"
+        },
+        "companyUrl": "https://allinpodcast.co"
+    }
+]

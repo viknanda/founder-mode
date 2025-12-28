@@ -1,0 +1,254 @@
+[
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "Grok involves a bit of wit and has a rebellious streak.",
+        "time": "2023-11-04",
+        "stats": {
+            "likes": "240k",
+            "replies": "15k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "For the first time, we have a situation where there's something that is going to be far smarter than the smartest human.",
+        "time": "2023-11-02",
+        "stats": {
+            "likes": "350k",
+            "replies": "22k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "Grok is designed to answer spicy questions that other AI systems reject.",
+        "time": "2023-11-05",
+        "stats": {
+            "likes": "180k",
+            "replies": "9k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "It will improve rapidly with each passing week.",
+        "time": "2023-11-22",
+        "stats": {
+            "likes": "95k",
+            "replies": "4k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon Musk",
+        "content": "Grok-1.5 vision is now out.",
+        "time": "2024-04-13",
+        "stats": {
+            "likes": "120k",
+            "replies": "7k"
+        },
+        "companyUrl": "https://x.ai"
+    },
+    {
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc Andreessen",
+        "content": "Technology is the glory of human ambition and achievement, the spearhead of progress, and the realization of our potential.",
+        "time": "2023-10-16",
+        "stats": {
+            "likes": "45k",
+            "replies": "2.5k"
+        },
+        "companyUrl": "https://a16z.com"
+    },
+    {
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc Andreessen",
+        "content": "We believe technology is the solution to environmental degradation and crisis.",
+        "time": "2023-10-16",
+        "stats": {
+            "likes": "28k",
+            "replies": "1.8k"
+        },
+        "companyUrl": "https://a16z.com"
+    },
+    {
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc Andreessen",
+        "content": "Intelligence is the ultimate engine of progress. Intelligence makes everything better.",
+        "time": "2023-10-16",
+        "stats": {
+            "likes": "35k",
+            "replies": "1.2k"
+        },
+        "companyUrl": "https://a16z.com"
+    },
+    {
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc Andreessen",
+        "content": "Our enemy is stagnation.",
+        "time": "2023-10-16",
+        "stats": {
+            "likes": "22k",
+            "replies": "800"
+        },
+        "companyUrl": "https://a16z.com"
+    },
+    {
+        "name": "Marc Andreessen",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc Andreessen",
+        "content": "It’s time to be a Techno-Optimist. It’s time to build.",
+        "time": "2023-10-16",
+        "stats": {
+            "likes": "65k",
+            "replies": "4k"
+        },
+        "companyUrl": "https://a16z.com"
+    },
+    {
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul Graham",
+        "content": "In effect there are two different ways to run a company: founder mode and manager mode.",
+        "time": "2024-09-01",
+        "stats": {
+            "likes": "95k",
+            "replies": "3.5k"
+        },
+        "companyUrl": "https://paulgraham.com"
+    },
+    {
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul Graham",
+        "content": "Great leadership is not absence; great leadership is presence.",
+        "time": "2024-09-01",
+        "stats": {
+            "likes": "75k",
+            "replies": "2.2k"
+        },
+        "companyUrl": "https://paulgraham.com"
+    },
+    {
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul Graham",
+        "content": "The way to get new ideas is to notice anomalies: what seems strange.",
+        "time": "2023-01-01",
+        "stats": {
+            "likes": "42k",
+            "replies": "900"
+        },
+        "companyUrl": "https://paulgraham.com"
+    },
+    {
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul Graham",
+        "content": "Essays are for taking risks. Almost any question can get you a good essay.",
+        "time": "2024-03-15",
+        "stats": {
+            "likes": "18k",
+            "replies": "400"
+        },
+        "companyUrl": "https://paulgraham.com"
+    },
+    {
+        "name": "Paul Graham",
+        "handle": "@paulg",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul Graham",
+        "content": "Writing is thinking.",
+        "time": "2024-05-20",
+        "stats": {
+            "likes": "33k",
+            "replies": "1.1k"
+        },
+        "companyUrl": "https://paulgraham.com"
+    },
+    {
+        "name": "Brian Chesky",
+        "handle": "@bchesky",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brian Chesky",
+        "content": "Great leadership is not absence; great leadership is presence.",
+        "time": "2024-09-05",
+        "stats": {
+            "likes": "28k",
+            "replies": "1.2k"
+        },
+        "companyUrl": "https://airbnb.com"
+    },
+    {
+        "name": "Brian Chesky",
+        "handle": "@bchesky",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brian Chesky",
+        "content": "Every decision should be our decision.",
+        "time": "2024-09-05",
+        "stats": {
+            "likes": "15k",
+            "replies": "600"
+        },
+        "companyUrl": "https://airbnb.com"
+    },
+    {
+        "name": "Brian Chesky",
+        "handle": "@bchesky",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brian Chesky",
+        "content": "I don't think people are innately good CEOs. I think many of the good CEOs start as bad CEOs.",
+        "time": "2024-09-07",
+        "stats": {
+            "likes": "22k",
+            "replies": "900"
+        },
+        "companyUrl": "https://airbnb.com"
+    },
+    {
+        "name": "Sam Altman",
+        "handle": "@sama",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sam Altman",
+        "content": "It feels like AI from the movies.",
+        "time": "2024-05-13",
+        "stats": {
+            "likes": "65k",
+            "replies": "3.5k"
+        },
+        "companyUrl": "https://openai.com"
+    },
+    {
+        "name": "Sam Altman",
+        "handle": "@sama",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sam Altman",
+        "content": "The best computer interface I've ever used.",
+        "time": "2024-05-13",
+        "stats": {
+            "likes": "55k",
+            "replies": "2.8k"
+        },
+        "companyUrl": "https://openai.com"
+    },
+    {
+        "name": "Sam Altman",
+        "handle": "@sama",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sam Altman",
+        "content": "We are getting natively multimodal.",
+        "time": "2024-05-13",
+        "stats": {
+            "likes": "38k",
+            "replies": "1.5k"
+        },
+        "companyUrl": "https://openai.com"
+    }
+]

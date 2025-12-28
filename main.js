@@ -6,9 +6,9 @@ const ROTATION_MS = 30000; // 30 seconds
 
 // Time period distribution (relative to current date)
 const TIME_DISTRIBUTION = {
-  recent: 0.20,     // Within past year: 20%
-  mid: 0.50,        // 1-3 years ago: 50%
-  historical: 0.30  // 3-10 years ago: 30%
+  recent: 0.20,     // Target: 20%
+  mid: 0.50,        // Target: 50%
+  historical: 0.30  // Target: 30%
 };
 
 
@@ -27,7 +27,7 @@ async function init() {
 
   // Fetch Data
   try {
-    const response = await fetch('/tweets.json');
+    const response = await fetch(`/tweets.json?t=${Date.now()}`); // Cache busting
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -41,7 +41,7 @@ async function init() {
   }
 
   // State
-  let currentSeedIndex = Math.floor(Date.now() / ROTATION_MS); // Start from current wall time
+  let currentSeedIndex = Date.now(); // Start fresh always (was based on 30s bucket)
   let nextRefreshTime = Date.now() + ROTATION_MS; // Initial full 30s
 
   function updateFeed() {
@@ -49,6 +49,9 @@ async function init() {
 
     // Select Tweets with time-balanced distribution
     const currentTweets = getStratifiedSubset(tweetsData, seedKey, TWEETS_PER_BATCH);
+
+    // DEBUG: Log refresh event
+    console.log(`[Refresh] Seed: ${seedKey}, First Tweet: "${currentTweets[0]?.content.substring(0, 20)}..."`);
 
     // Clear & Render
     feedContainer.innerHTML = '';
@@ -140,7 +143,7 @@ async function init() {
     const btn = document.getElementById('timer');
 
     // 1. Advance content
-    currentSeedIndex++;
+    currentSeedIndex = Date.now(); // Guaranteed unique seed
     updateFeed();
 
     // 2. Reset Timer to full 30s
@@ -326,17 +329,23 @@ function createTweetElement(data, template, sizeClass) {
   headerLink.href = `https://x.com/${handle}`;
 
   const img = clone.querySelector('.avatar');
-  img.src = data.avatar;
+  img.src = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(data.name)}`;
   img.alt = data.name;
 
   clone.querySelector('.name').textContent = data.name;
   clone.querySelector('.handle').textContent = data.handle;
-  clone.querySelector('.time').textContent = data.time;
+  clone.querySelector('.time').textContent = formatDate(data.time);
   clone.querySelector('.tweet-content').textContent = data.content;
 
   clone.querySelector('.replies').textContent = data.stats.replies;
   clone.querySelector('.likes').textContent = data.stats.likes;
 
   return clone;
+}
+
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return `${months[date.getMonth()]} ${date.getFullYear()}`;
 }
 
