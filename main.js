@@ -6,9 +6,10 @@ const ROTATION_MS = 30000; // 30 seconds
 
 // Time period distribution (relative to current date)
 const TIME_DISTRIBUTION = {
-  recent: 0.20,     // Target: 20%
-  mid: 0.50,        // Target: 50%
-  historical: 0.30  // Target: 30%
+  fresh: 0.10,      // <= 1 month (target 10%)
+  recent: 0.25,     // <= 1 year (target 25%)
+  mid: 0.35,        // 1-3 years (target 35%)
+  historical: 0.30  // > 3 years (target 30%)
 };
 
 
@@ -19,11 +20,6 @@ async function init() {
   const feedContainer = document.getElementById('feed');
   const tweetTemplate = document.getElementById('tweet-template');
   const timerElement = document.getElementById('timer');
-
-  if (!feedContainer || !tweetTemplate) {
-    console.error("Missing DOM elements", { feedContainer, tweetTemplate });
-    return;
-  }
 
   // Fetch Data
   try {
@@ -207,12 +203,13 @@ function cyrb128(str) {
 function getTimePeriod(tweet) {
   const tweetDate = new Date(tweet.time);
   const now = new Date();
-  const yearsAgo = (now - tweetDate) / (1000 * 60 * 60 * 24 * 365.25);
+  const daysAgo = (now - tweetDate) / (1000 * 60 * 60 * 24);
+  const yearsAgo = daysAgo / 365.25;
 
-  if (yearsAgo <= 1) return 'recent';           // Within past year
-  if (yearsAgo <= 3) return 'mid';              // 1-3 years ago
-  if (yearsAgo <= 10) return 'historical';      // 3-10 years ago
-  return 'historical';                          // Older than 10 years (treat as historical)
+  if (daysAgo <= 30) return 'fresh';          // Within past month
+  if (yearsAgo <= 1) return 'recent';         // 1 month to 1 year
+  if (yearsAgo <= 3) return 'mid';            // 1-3 years ago
+  return 'historical';                        // Older than 3 years
 }
 
 // Stratified sampling to maintain time period distribution
@@ -222,18 +219,20 @@ function getStratifiedSubset(allTweets, seedKey, count) {
 
   // Calculate target counts for each period
   const counts = {
+    fresh: Math.round(count * TIME_DISTRIBUTION.fresh),
     recent: Math.round(count * TIME_DISTRIBUTION.recent),
     mid: Math.round(count * TIME_DISTRIBUTION.mid),
     historical: Math.round(count * TIME_DISTRIBUTION.historical)
   };
 
   // Adjust for rounding errors
-  const total = counts.recent + counts.mid + counts.historical;
-  if (total < count) counts.recent += (count - total);
-  if (total > count) counts.recent -= (total - count);
+  const total = counts.fresh + counts.recent + counts.mid + counts.historical;
+  if (total < count) counts.fresh += (count - total);
+  if (total > count) counts.fresh -= (total - count);
 
   // Separate tweets by time period
   const buckets = {
+    fresh: [],
     recent: [],
     mid: [],
     historical: []
@@ -241,7 +240,9 @@ function getStratifiedSubset(allTweets, seedKey, count) {
 
   allTweets.forEach(tweet => {
     const period = getTimePeriod(tweet);
-    buckets[period].push(tweet);
+    if (buckets[period]) {
+      buckets[period].push(tweet);
+    }
   });
 
   // Fisher-Yates shuffle each bucket with seeded random
@@ -254,20 +255,25 @@ function getStratifiedSubset(allTweets, seedKey, count) {
     return shuffled;
   };
 
-  // Select from each bucket
-  const selected = [
-    ...shuffleBucket(buckets.recent).slice(0, counts.recent),
-    ...shuffleBucket(buckets.mid).slice(0, counts.mid),
-    ...shuffleBucket(buckets.historical).slice(0, counts.historical)
-  ];
+  buckets.fresh = shuffleBucket(buckets.fresh);
+  buckets.recent = shuffleBucket(buckets.recent);
+  buckets.mid = shuffleBucket(buckets.mid);
+  buckets.historical = shuffleBucket(buckets.historical);
 
-  // Final shuffle to mix time periods
-  for (let i = selected.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1));
-    [selected[i], selected[j]] = [selected[j], selected[i]];
-  }
+  let result = [];
 
-  console.log(`Selected ${selected.length} tweets - Recent: ${counts.recent}, Mid: ${counts.mid}, Historical: ${counts.historical} (from ${allTweets.length} total in dataset)`);
+  // Fill according to distribution targets
+  // Note: If a bucket doesn't have enough tweets, we just take what we have. 
+  // In a robust system we'd backfill from others, but for now this is fine.
+  result = result.concat(buckets.fresh.slice(0, counts.fresh));
+  result = result.concat(buckets.recent.slice(0, counts.recent));
+  result = result.concat(buckets.mid.slice(0, counts.mid));
+  result = result.concat(buckets.historical.slice(0, counts.historical));
+
+  // Final shuffle of the whole result
+  const selected = shuffleBucket(result);
+
+  console.log(`Selected ${selected.length} tweets - Fresh: ${counts.fresh}, Recent: ${counts.recent}, Mid: ${counts.mid}, Historical: ${counts.historical} (from ${allTweets.length} total in dataset)`);
 
   return selected;
 }
