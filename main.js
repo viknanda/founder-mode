@@ -4,6 +4,14 @@
 const TWEETS_PER_BATCH = 100;
 const ROTATION_MS = 30000; // 30 seconds
 
+// Time period distribution (relative to current date)
+const TIME_DISTRIBUTION = {
+  recent: 0.20,     // Within past year: 20%
+  mid: 0.50,        // 1-3 years ago: 50%
+  historical: 0.30  // 3-10 years ago: 30%
+};
+
+
 // let userOffset = 0; // Removed in refactor
 let tweetsData = []; // State for fetched data
 
@@ -39,8 +47,8 @@ async function init() {
   function updateFeed() {
     const seedKey = `epoch-${currentSeedIndex}`;
 
-    // Select Tweets
-    const currentTweets = getSeededSubset(tweetsData, seedKey, TWEETS_PER_BATCH);
+    // Select Tweets with time-balanced distribution
+    const currentTweets = getStratifiedSubset(tweetsData, seedKey, TWEETS_PER_BATCH);
 
     // Clear & Render
     feedContainer.innerHTML = '';
@@ -191,6 +199,77 @@ function cyrb128(str) {
   return (h1 ^ h2 ^ h3 ^ h4) >>> 0;
 }
 
+// Classify tweet into time period
+// Classify tweet into time period based on relative age
+function getTimePeriod(tweet) {
+  const tweetDate = new Date(tweet.time);
+  const now = new Date();
+  const yearsAgo = (now - tweetDate) / (1000 * 60 * 60 * 24 * 365.25);
+
+  if (yearsAgo <= 1) return 'recent';           // Within past year
+  if (yearsAgo <= 3) return 'mid';              // 1-3 years ago
+  if (yearsAgo <= 10) return 'historical';      // 3-10 years ago
+  return 'historical';                          // Older than 10 years (treat as historical)
+}
+
+// Stratified sampling to maintain time period distribution
+function getStratifiedSubset(allTweets, seedKey, count) {
+  const seed = cyrb128(seedKey);
+  const random = mulberry32(seed);
+
+  // Calculate target counts for each period
+  const counts = {
+    recent: Math.round(count * TIME_DISTRIBUTION.recent),
+    mid: Math.round(count * TIME_DISTRIBUTION.mid),
+    historical: Math.round(count * TIME_DISTRIBUTION.historical)
+  };
+
+  // Adjust for rounding errors
+  const total = counts.recent + counts.mid + counts.historical;
+  if (total < count) counts.recent += (count - total);
+  if (total > count) counts.recent -= (total - count);
+
+  // Separate tweets by time period
+  const buckets = {
+    recent: [],
+    mid: [],
+    historical: []
+  };
+
+  allTweets.forEach(tweet => {
+    const period = getTimePeriod(tweet);
+    buckets[period].push(tweet);
+  });
+
+  // Fisher-Yates shuffle each bucket with seeded random
+  const shuffleBucket = (bucket) => {
+    const shuffled = [...bucket];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Select from each bucket
+  const selected = [
+    ...shuffleBucket(buckets.recent).slice(0, counts.recent),
+    ...shuffleBucket(buckets.mid).slice(0, counts.mid),
+    ...shuffleBucket(buckets.historical).slice(0, counts.historical)
+  ];
+
+  // Final shuffle to mix time periods
+  for (let i = selected.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [selected[i], selected[j]] = [selected[j], selected[i]];
+  }
+
+  console.log(`Selected ${selected.length} tweets - Recent: ${counts.recent}, Mid: ${counts.mid}, Historical: ${counts.historical} (from ${allTweets.length} total in dataset)`);
+
+  return selected;
+}
+
+// Keep old function for reference (not used)
 function getSeededSubset(allTweets, seedKey, count) {
   const seed = cyrb128(seedKey);
   const random = mulberry32(seed);
@@ -204,6 +283,7 @@ function getSeededSubset(allTweets, seedKey, count) {
 
   return shuffled.slice(0, count);
 }
+
 
 /* --- Rendering --- */
 
