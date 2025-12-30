@@ -52,61 +52,12 @@ async function init() {
     // Clear & Render
     feedContainer.innerHTML = '';
 
-    // Add inline ad as first item
-    const inlineAd = document.createElement('div');
-    inlineAd.className = 'inline-ad-container';
 
-    // Add "Sponsored" label
-    const adLabel = document.createElement('div');
-    adLabel.className = 'ad-label';
-    adLabel.textContent = 'Sponsored';
-    inlineAd.appendChild(adLabel);
-
-    // Create ad content container
-    const adContent = document.createElement('div');
-    adContent.className = 'inline-ad-content';
-
-    // Create ad script
-    const adScript = document.createElement('script');
-    adScript.async = true;
-    adScript.setAttribute('data-cfasync', 'false');
-    adScript.src = 'https://pl28331080.effectivegatecpm.com/16d519e41cde9c05d3cd957495dc0172/invoke.js';
-    adContent.appendChild(adScript);
-
-    // Create ad container div
-    const adContainer = document.createElement('div');
-    adContainer.id = 'container-16d519e41cde9c05d3cd957495dc0172';
-    adContent.appendChild(adContainer);
-
-    inlineAd.appendChild(adContent);
-    feedContainer.appendChild(inlineAd);
 
     // Render tweets
     renderFeed(currentTweets, feedContainer, tweetTemplate);
 
-    // Add bottom ad as last item
-    const bottomAd = document.createElement('div');
-    bottomAd.className = 'bottom-ad-container';
 
-    // Create atOptions script
-    const optionsScript = document.createElement('script');
-    optionsScript.textContent = `
-      atOptions = {
-        'key': '95a39c84b6f581cea25dce49e0171f41',
-        'format': 'iframe',
-        'height': 90,
-        'width': 728,
-        'params': {}
-      };
-    `;
-    bottomAd.appendChild(optionsScript);
-
-    // Create invoke script
-    const invokeScript = document.createElement('script');
-    invokeScript.src = 'https://www.highperformanceformat.com/95a39c84b6f581cea25dce49e0171f41/invoke.js';
-    bottomAd.appendChild(invokeScript);
-
-    feedContainer.appendChild(bottomAd);
   }
 
   function updateTimer() {
