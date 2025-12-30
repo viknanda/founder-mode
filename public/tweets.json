@@ -8682,5 +8682,187 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/sundeep"
+    },
+    {
+        "id": "2005271213288145157",
+        "name": "kache",
+        "handle": "@yacineMTB",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=kache",
+        "content": "the last job left after AI will be QA",
+        "time": "2025-12-28T13:34:48.000Z",
+        "stats": {
+            "likes": "982",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/yacineMTB"
+    },
+    {
+        "id": "2005103538696061285",
+        "name": "NIK",
+        "handle": "@ns123abc",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=NIK",
+        "content": "unless you already know what you're doing, AI is the opposite of helpful, sending you down rabbit holes and hallucinating fake answers.",
+        "time": "2025-12-28T02:28:31.000Z",
+        "stats": {
+            "likes": "742",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ns123abc"
+    },
+    {
+        "id": "2005068648910864706",
+        "name": "Logan Kilpatrick",
+        "handle": "@OfficialLoganK",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan%20Kilpatrick",
+        "content": "There is always more to do",
+        "time": "2025-12-28T00:09:52.000Z",
+        "stats": {
+            "likes": "1124",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/OfficialLoganK"
+    },
+    {
+        "id": "2005337707736867038",
+        "name": "Hiten Shah",
+        "handle": "@hnshah",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Hiten%20Shah",
+        "content": "Founders who scale well are better editors than creators.",
+        "time": "2025-12-28T17:59:01.000Z",
+        "stats": {
+            "likes": "41",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/hnshah"
+    },
+    {
+        "id": "2005514091558064264",
+        "name": "Pedro Domingos",
+        "handle": "@pmddomingos",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pedro%20Domingos",
+        "content": "AI will be the end of drudgery.",
+        "time": "2025-12-29T05:39:54.000Z",
+        "stats": {
+            "likes": "52",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmddomingos"
+    },
+    {
+        "id": "2005833646524227959",
+        "name": "Nikunj Kothari",
+        "handle": "@nikunj",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Nikunj%20Kothari",
+        "content": "When your CFO says ‘we need to offset some income’ and you decide to buy two AI companies right before New Year’s",
+        "time": "2025-12-30T02:49:42.000Z",
+        "stats": {
+            "likes": "161",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/nikunj"
+    },
+    {
+        "id": "2005772262973296677",
+        "name": "François Chollet",
+        "handle": "@fchollet",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Fran%C3%A7ois%20Chollet",
+        "content": "Human-level intelligence isn't a specific threshold of capability, it's a threshold of efficiency.",
+        "time": "2025-12-29T22:45:47.000Z",
+        "stats": {
+            "likes": "439",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/fchollet"
+    },
+    {
+        "id": "2005957960111952158",
+        "name": "David Scott Patterson",
+        "handle": "@davidpattersonx",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=David%20Scott%20Patterson",
+        "content": "AI will create a better world and make you a better person.",
+        "time": "2025-12-30T11:03:41.000Z",
+        "stats": {
+            "likes": "140",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/davidpattersonx"
+    },
+    {
+        "id": "2005712976142369178",
+        "name": "Pedro Domingos",
+        "handle": "@pmddomingos",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pedro%20Domingos",
+        "content": "AI researchers are like Columbus: aiming for a faraway goal that they think is close, and stumbling onto big discoveries along the way.",
+        "time": "2025-12-29T18:50:12.000Z",
+        "stats": {
+            "likes": "143",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmddomingos"
+    },
+    {
+        "id": "2006013871589347575",
+        "name": "Santiago",
+        "handle": "@svpino",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Santiago",
+        "content": "I finally uninstalled Slack. Life is good.",
+        "time": "2025-12-30T14:45:51.000Z",
+        "stats": {
+            "likes": "105",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/svpino"
+    },
+    {
+        "id": "2006020661681029205",
+        "name": "Bojan Tunguz",
+        "handle": "@tunguz",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Bojan%20Tunguz",
+        "content": "Fake it till you get AI to make it.",
+        "time": "2025-12-30T15:12:50.000Z",
+        "stats": {
+            "likes": "68",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/tunguz"
+    },
+    {
+        "id": "2005863756576813374",
+        "name": "Ethan He",
+        "handle": "@EthanHe_42",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Ethan%20He",
+        "content": "2026 will be the year of multimodal",
+        "time": "2025-12-30T04:49:21.000Z",
+        "stats": {
+            "likes": "639",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/EthanHe_42"
+    },
+    {
+        "id": "2005692940841017634",
+        "name": "Peter H. Diamandis, MD",
+        "handle": "@PeterDiamandis",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Peter%20H.%20Diamandis%2C%20MD",
+        "content": "Bitcoin is the first asset class where a teenager with Wi‑Fi has the same settlement rails as a billionaire.",
+        "time": "2025-12-29T17:30:35.000Z",
+        "stats": {
+            "likes": "2385",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/PeterDiamandis"
+    },
+    {
+        "id": "2006048644634681488",
+        "name": "Paul Mit",
+        "handle": "@pmitu",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul%20Mit",
+        "content": "Marketing is not optional.",
+        "time": "2025-12-30T17:04:02.000Z",
+        "stats": {
+            "likes": "30",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmitu"
     }
 ]
