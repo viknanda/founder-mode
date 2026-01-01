@@ -1,6 +1,10 @@
 // Removed static import
 // import tweetsData from './tweets.json';
 
+// Vercel Web Analytics
+import { inject } from '@vercel/analytics';
+inject();
+
 const TWEETS_PER_BATCH = 100;
 const ROTATION_MS = 30000; // 30 seconds
 
