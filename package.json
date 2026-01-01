@@ -13,6 +13,7 @@
     "vite": "^7.3.0"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "puppeteer": "^24.34.0"
   }
 }
