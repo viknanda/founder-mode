@@ -9241,5 +9241,252 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/Zoe_ZouYi"
+    },
+    {
+        "id": "2007138324302250352",
+        "name": "Paul Mit",
+        "handle": "@pmitu",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Paul%20Mit",
+        "content": "Don't let your startup become your entire personality.\n\nFirst, no one will like you.\n\nSecond, that's how burnouts happen.",
+        "time": "2026-01-02T17:14:01.000Z",
+        "stats": {
+            "likes": "138",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmitu"
+    },
+    {
+        "id": "2006979933462213017",
+        "name": "Jules Mesh",
+        "handle": "@jules_mesh",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jules%20Mesh",
+        "content": "The founder who talks to 100 customers always beats the founder who reads 100 books.",
+        "time": "2026-01-02T06:44:38.000Z",
+        "stats": {
+            "likes": "263",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/jules_mesh"
+    },
+    {
+        "id": "2007170529292148909",
+        "name": "Sherry Jiang",
+        "handle": "@SherryYanJiang",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sherry%20Jiang",
+        "content": "hot take: im more interested in ai-native dynamic ui than voice agents for 2026",
+        "time": "2026-01-02T19:22:00.000Z",
+        "stats": {
+            "likes": "221",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/SherryYanJiang"
+    },
+    {
+        "id": "2006970789409755346",
+        "name": "Brad Lea",
+        "handle": "@TheRealBradLea",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brad%20Lea",
+        "content": "Keep your head down, your standards up, and your circle tight.",
+        "time": "2026-01-02T06:08:18.000Z",
+        "stats": {
+            "likes": "175",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/TheRealBradLea"
+    },
+    {
+        "id": "2007111102187090353",
+        "name": "vik",
+        "handle": "@vikhyatk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=vik",
+        "content": "3090 is still the best consumer gpu. 4090 is too power hungry. and 5090 isn’t an aesthetically pleasing number",
+        "time": "2026-01-02T15:25:51.000Z",
+        "stats": {
+            "likes": "164",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/vikhyatk"
+    },
+    {
+        "id": "2007239788840268185",
+        "name": "Tara Viswanathan",
+        "handle": "@TaraViswanathan",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Tara%20Viswanathan",
+        "content": "cancel complaining culture",
+        "time": "2026-01-02T23:57:13.000Z",
+        "stats": {
+            "likes": "69",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/TaraViswanathan"
+    },
+    {
+        "id": "2007181325162496261",
+        "name": "kache",
+        "handle": "@yacineMTB",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=kache",
+        "content": "stop writing software",
+        "time": "2026-01-02T20:04:54.000Z",
+        "stats": {
+            "likes": "171",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/yacineMTB"
+    },
+    {
+        "id": "2007259388277583970",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "You can’t “seize the means of production” when the means of production are human ingenuity and hard work. All you can do is stamp them out.",
+        "time": "2026-01-03T01:15:05.000Z",
+        "stats": {
+            "likes": "8258",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2007144345791803469",
+        "name": "Mustafa",
+        "handle": "@oprydai",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Mustafa",
+        "content": "if you are in software, pivot to hardware!",
+        "time": "2026-01-02T17:37:57.000Z",
+        "stats": {
+            "likes": "408",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/oprydai"
+    },
+    {
+        "id": "2007171284271046829",
+        "name": "Anicet",
+        "handle": "@AniC_dev",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Anicet",
+        "content": "manus has very good ux\nno wonder they made it",
+        "time": "2026-01-02T19:25:00.000Z",
+        "stats": {
+            "likes": "11",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/AniC_dev"
+    },
+    {
+        "id": "2007301236245299665",
+        "name": "Hubert Thieblot",
+        "handle": "@hthieblot",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Hubert%20Thieblot",
+        "content": "Contrary to what everyone says, it’s more important than ever to be deeply technical…",
+        "time": "2026-01-03T04:01:23.000Z",
+        "stats": {
+            "likes": "825",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/hthieblot"
+    },
+    {
+        "id": "2007293139300630831",
+        "name": "Sharran Srivatsaa",
+        "handle": "@sharran",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sharran%20Srivatsaa",
+        "content": "Fix small problems early, because they don’t stay small. Avoidance has interest. What feels minor today becomes heavy later, right when you have less bandwidth.",
+        "time": "2026-01-03T03:29:12.000Z",
+        "stats": {
+            "likes": "43",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/sharran"
+    },
+    {
+        "id": "2007345688636731815",
+        "name": "kitze ",
+        "handle": "@thekitze",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=kitze%20",
+        "content": "ship imperfect things",
+        "time": "2026-01-03T06:58:01.000Z",
+        "stats": {
+            "likes": "26",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/thekitze"
+    },
+    {
+        "id": "2007162184443580761",
+        "name": "Sam Otigba",
+        "handle": "@SamuelOtigba",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sam%20Otigba",
+        "content": "No task is beneath you. If it needs to be done, do it.",
+        "time": "2026-01-02T18:48:50.000Z",
+        "stats": {
+            "likes": "1254",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/SamuelOtigba"
+    },
+    {
+        "id": "2007461645438849484",
+        "name": "kepano",
+        "handle": "@kepano",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=kepano",
+        "content": "The future is plain text files — it's just not evenly distributed",
+        "time": "2026-01-03T14:38:47.000Z",
+        "stats": {
+            "likes": "437",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/kepano"
+    },
+    {
+        "id": "2007373762350723284",
+        "name": "Dilip Kumar",
+        "handle": "@kmr_dilip",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Dilip%20Kumar",
+        "content": "Moral outrage is cheap when you don’t carry the cost of decisions.",
+        "time": "2026-01-03T08:49:34.000Z",
+        "stats": {
+            "likes": "758",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/kmr_dilip"
+    },
+    {
+        "id": "2007308328519733405",
+        "name": "Farzad",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad",
+        "content": "I notice that I'm WAY more polite to Claude Code vs any other AI because it has access to my Mac so I don't want it to get angry and delete anything lol",
+        "time": "2026-01-03T04:29:34.000Z",
+        "stats": {
+            "likes": "57",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "id": "2007325779110309994",
+        "name": "Mustafa",
+        "handle": "@oprydai",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Mustafa",
+        "content": "focus like a single core CPU handling multiple threads",
+        "time": "2026-01-03T05:38:54.000Z",
+        "stats": {
+            "likes": "95",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/oprydai"
+    },
+    {
+        "id": "2007174870283759712",
+        "name": "Maze",
+        "handle": "@mazeincoding",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Maze",
+        "content": "stop overthinking your posts",
+        "time": "2026-01-02T19:39:15.000Z",
+        "stats": {
+            "likes": "30",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/mazeincoding"
     }
 ]
