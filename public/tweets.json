@@ -9488,5 +9488,135 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/mazeincoding"
+    },
+    {
+        "id": "2007541571085054031",
+        "name": "Brian Armstrong",
+        "handle": "@brian_armstrong",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brian%20Armstrong",
+        "content": "We need more rugged individualism, not less.\n\nBuild on the frontier. Be independent. Decentralize power. Accelerate civilizational progress. Celebrate economic freedom.",
+        "time": "2026-01-03T19:56:23.000Z",
+        "stats": {
+            "likes": "10751",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/brian_armstrong"
+    },
+    {
+        "id": "2007622894327869755",
+        "name": "martin_casado",
+        "handle": "@martin_casado",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=martin_casado",
+        "content": "Software is no longer the bottleneck.",
+        "time": "2026-01-04T01:19:32.000Z",
+        "stats": {
+            "likes": "1315",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/martin_casado"
+    },
+    {
+        "id": "2007617940313768074",
+        "name": "kitze ",
+        "handle": "@thekitze",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=kitze%20",
+        "content": "i know sleep is important and yada yada but goddamn there's something magical when the world shuts the fuck up and you're cooking at night",
+        "time": "2026-01-04T00:59:51.000Z",
+        "stats": {
+            "likes": "55",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/thekitze"
+    },
+    {
+        "id": "2007615125138878776",
+        "name": "Brendan (can/do)",
+        "handle": "@BrendanFoody",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brendan%20(can%2Fdo)",
+        "content": "in 2026, someone is going to build an API for McKinsey",
+        "time": "2026-01-04T00:48:40.000Z",
+        "stats": {
+            "likes": "316",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/BrendanFoody"
+    },
+    {
+        "id": "2007648204456898790",
+        "name": "Riley Brown",
+        "handle": "@rileybrown",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Riley%20Brown",
+        "content": "Holy shit momentum at a startup is one hell of a drug.",
+        "time": "2026-01-04T03:00:06.000Z",
+        "stats": {
+            "likes": "133",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/rileybrown"
+    },
+    {
+        "id": "2007823190022881695",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "We should be praying for technology acceleration because on the other side, lies immortality.",
+        "time": "2026-01-04T14:35:26.000Z",
+        "stats": {
+            "likes": "3740",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2007744474563346664",
+        "name": "Ayush Jaiswal",
+        "handle": "@ayushjaiswal",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Ayush%20Jaiswal",
+        "content": "Tokens are all we need.",
+        "time": "2026-01-04T09:22:39.000Z",
+        "stats": {
+            "likes": "88",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ayushjaiswal"
+    },
+    {
+        "id": "2007738847397036143",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "We have entered the Singularity",
+        "time": "2026-01-04T09:00:17.000Z",
+        "stats": {
+            "likes": "9130",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2007822839311700374",
+        "name": "Codie Sanchez",
+        "handle": "@Codie_Sanchez",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Codie%20Sanchez",
+        "content": "Nobody is envious of the takers only the makers.",
+        "time": "2026-01-04T14:34:03.000Z",
+        "stats": {
+            "likes": "239",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/Codie_Sanchez"
+    },
+    {
+        "id": "2007681103952507022",
+        "name": "Kpaxs",
+        "handle": "@Kpaxs",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Kpaxs",
+        "content": "Your phone is a casino designed to steal your time.",
+        "time": "2026-01-04T05:10:50.000Z",
+        "stats": {
+            "likes": "1229",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/Kpaxs"
     }
 ]
