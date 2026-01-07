@@ -9878,5 +9878,187 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2008248226865172515",
+        "name": "sarah guo",
+        "handle": "@saranormous",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sarah%20guo",
+        "content": "we must struggle",
+        "time": "2026-01-05T18:44:23.000Z",
+        "stats": {
+            "likes": "191",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/saranormous"
+    },
+    {
+        "id": "2008332479820890428",
+        "name": "Theo - t3.gg",
+        "handle": "@theo",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Theo%20-%20t3.gg",
+        "content": "Feels like we're actually in one of those \"everything is about to change\" moments",
+        "time": "2026-01-06T00:19:10.000Z",
+        "stats": {
+            "likes": "2151",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/theo"
+    },
+    {
+        "id": "2008200764460822889",
+        "name": "Astasia Myers",
+        "handle": "@AstasiaMyers",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Astasia%20Myers",
+        "content": "In an era of AI slop, taste is the only moat. Software should feel like magic.",
+        "time": "2026-01-05T15:35:47.000Z",
+        "stats": {
+            "likes": "322",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/AstasiaMyers"
+    },
+    {
+        "id": "2008215571544891483",
+        "name": "NIK",
+        "handle": "@ns123abc",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=NIK",
+        "content": "Is META cooked?",
+        "time": "2026-01-05T16:34:37.000Z",
+        "stats": {
+            "likes": "336",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ns123abc"
+    },
+    {
+        "id": "2008268072898187571",
+        "name": "Tony Fadell",
+        "handle": "@tfadell",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Tony%20Fadell",
+        "content": "We don’t need more startup theatre. We need more innovators quietly building and shipping products that feel like magic. Building trust > buzzword filled posts.",
+        "time": "2026-01-05T20:03:15.000Z",
+        "stats": {
+            "likes": "560",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/tfadell"
+    },
+    {
+        "id": "2008511699088011469",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Lies are generally more pleasant than the truth because otherwise, how would they spread?",
+        "time": "2026-01-06T12:11:20.000Z",
+        "stats": {
+            "likes": "5148",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2008373470585831901",
+        "name": "Logan Kilpatrick",
+        "handle": "@OfficialLoganK",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan%20Kilpatrick",
+        "content": "One of the specials joys in life is having someone deeply in your corner rooting for and supporting you",
+        "time": "2026-01-06T03:02:03.000Z",
+        "stats": {
+            "likes": "1261",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/OfficialLoganK"
+    },
+    {
+        "id": "2008274935437832245",
+        "name": "Peter H. Diamandis, MD",
+        "handle": "@PeterDiamandis",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Peter%20H.%20Diamandis%2C%20MD",
+        "content": "Sleep is one of the highest ROI health interventions available to everyone.",
+        "time": "2026-01-05T20:30:31.000Z",
+        "stats": {
+            "likes": "1460",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/PeterDiamandis"
+    },
+    {
+        "id": "2008603400095891627",
+        "name": "Shaan Puri",
+        "handle": "@ShaanVP",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Shaan%20Puri",
+        "content": "It’s ok to want to impress other people, but choose the right people",
+        "time": "2026-01-06T18:15:43.000Z",
+        "stats": {
+            "likes": "203",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ShaanVP"
+    },
+    {
+        "id": "2008563051633717759",
+        "name": "Bojan Tunguz",
+        "handle": "@tunguz",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Bojan%20Tunguz",
+        "content": "Discomfort is an investment.",
+        "time": "2026-01-06T15:35:23.000Z",
+        "stats": {
+            "likes": "48",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/tunguz"
+    },
+    {
+        "id": "2008674224261697745",
+        "name": "Patrick OShaughnessy",
+        "handle": "@patrick_oshag",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Patrick%20OShaughnessy",
+        "content": "Everything is contagious. Pick your exposures carefully.",
+        "time": "2026-01-06T22:57:09.000Z",
+        "stats": {
+            "likes": "230",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/patrick_oshag"
+    },
+    {
+        "id": "2008603030560927962",
+        "name": "Jay Alto",
+        "handle": "@theJayAlto",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jay%20Alto",
+        "content": "trust me, everyone is winging it",
+        "time": "2026-01-06T18:14:15.000Z",
+        "stats": {
+            "likes": "207",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/theJayAlto"
+    },
+    {
+        "id": "2008668317951947134",
+        "name": "Chris Pavlovski ",
+        "handle": "@chrispavlovski",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Chris%20Pavlovski%20",
+        "content": "Tomorrow… the creator economy changes.",
+        "time": "2026-01-06T22:33:40.000Z",
+        "stats": {
+            "likes": "2566",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/chrispavlovski"
+    },
+    {
+        "id": "2008647179993575933",
+        "name": "Riley Brown",
+        "handle": "@rileybrown",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Riley%20Brown",
+        "content": "Skills > Prompts",
+        "time": "2026-01-06T21:09:41.000Z",
+        "stats": {
+            "likes": "135",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/rileybrown"
     }
 ]
