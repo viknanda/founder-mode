@@ -10255,5 +10255,148 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/yacineMTB"
+    },
+    {
+        "id": "2010214487576719846",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "In the limit, the only jobs are creator or regulator.",
+        "time": "2026-01-11T04:57:36.000Z",
+        "stats": {
+            "likes": "7357",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2010368879562997868",
+        "name": "Marc Lou",
+        "handle": "@marclou",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc%20Lou",
+        "content": "You can't win if you don't fail",
+        "time": "2026-01-11T15:11:06.000Z",
+        "stats": {
+            "likes": "934",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/marclou"
+    },
+    {
+        "id": "2010338717265785322",
+        "name": "MATT GRAY",
+        "handle": "@matt_gray_",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=MATT%20GRAY",
+        "content": "If everything matters, nothing compounds.",
+        "time": "2026-01-11T13:11:15.000Z",
+        "stats": {
+            "likes": "100",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/matt_gray_"
+    },
+    {
+        "id": "2010394464452506040",
+        "name": "Esther Crawford ",
+        "handle": "@esthercrawford",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Esther%20Crawford%20",
+        "content": "After walking CES, it’s clear how little separates most products. There’s so much sameness on display. Real innovation, paired with great design, is rare and that coupling is a moat that few can build.",
+        "time": "2026-01-11T16:52:46.000Z",
+        "stats": {
+            "likes": "81",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/esthercrawford"
+    },
+    {
+        "id": "2010482860134936690",
+        "name": "Brian Armstrong",
+        "handle": "@brian_armstrong",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Brian%20Armstrong",
+        "content": "People generally don't go after their most ambitious ideas. But that's what creates the most value. Plus there's fewer people who play in that space.\n\nGo for the hard thing.",
+        "time": "2026-01-11T22:44:01.000Z",
+        "stats": {
+            "likes": "6898",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/brian_armstrong"
+    },
+    {
+        "id": "2010490875068006805",
+        "name": "Robleh",
+        "handle": "@robjama",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Robleh",
+        "content": "everyone's trying to move fast. \n\ni'm trying to take my time, stay in the game on my own terms, keep experimenting, have fun and let the right people find me. \n\nthat's the whole playbook.",
+        "time": "2026-01-11T23:15:52.000Z",
+        "stats": {
+            "likes": "84",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/robjama"
+    },
+    {
+        "id": "2010560943948955925",
+        "name": "Zara Zhang",
+        "handle": "@zarazhangrui",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Zara%20Zhang",
+        "content": "Every time I feel confused or low in motivation, I talk to users.\n\nIt never fails to give me a renewed sense of purpose and clarity.\n\nRemember who you’re building for.",
+        "time": "2026-01-12T03:54:18.000Z",
+        "stats": {
+            "likes": "171",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/zarazhangrui"
+    },
+    {
+        "id": "2010503384697102516",
+        "name": "Kevin Naughton Jr.",
+        "handle": "@KevinNaughtonJr",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Kevin%20Naughton%20Jr.",
+        "content": "software engineer career roadmap:\n-startup\n-big tech\n-founder\n-farmer",
+        "time": "2026-01-12T00:05:34.000Z",
+        "stats": {
+            "likes": "9213",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/KevinNaughtonJr"
+    },
+    {
+        "id": "2010907891478511701",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Ecosystems take decades to grow, but only an instant to burn down.",
+        "time": "2026-01-11T21:03:43.000Z",
+        "stats": {
+            "likes": "3021",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2010864428959269223",
+        "name": "Bojan Tunguz",
+        "handle": "@tunguz",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Bojan%20Tunguz",
+        "content": "Nothing an army of robots can't fix.",
+        "time": "2026-01-13T00:00:14.000Z",
+        "stats": {
+            "likes": "76",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/tunguz"
+    },
+    {
+        "id": "2010758795387867389",
+        "name": "Mark Manson",
+        "handle": "@Markmanson",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Mark%20Manson",
+        "content": "Happiness comes from progress. \n    \nTherefore, happiness requires struggle.",
+        "time": "2026-01-12T17:00:29.000Z",
+        "stats": {
+            "likes": "1626",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/Markmanson"
     }
 ]
