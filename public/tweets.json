@@ -10398,5 +10398,57 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/Markmanson"
+    },
+    {
+        "id": "2011322361317073335",
+        "name": "Gill Verdon",
+        "handle": "@GillVerd",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Gill%20Verdon",
+        "content": "Pain is a signal to adapt or die",
+        "time": "2026-01-14T06:19:54.000Z",
+        "stats": {
+            "likes": "145",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/GillVerd"
+    },
+    {
+        "id": "2011469049063198787",
+        "name": "jack",
+        "handle": "@jackbutcher",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=jack",
+        "content": "Ask the market, not the model",
+        "time": "2026-01-14T16:02:47.000Z",
+        "stats": {
+            "likes": "188",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/jackbutcher"
+    },
+    {
+        "id": "2011463461944115453",
+        "name": "Adam Draper ⏻",
+        "handle": "@AdamDraper",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Adam%20Draper%20%E2%8F%BB",
+        "content": "Momentum.",
+        "time": "2026-01-14T15:40:35.000Z",
+        "stats": {
+            "likes": "30",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/AdamDraper"
+    },
+    {
+        "id": "2011972162597392459",
+        "name": "signüll",
+        "handle": "@signulll",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sign%C3%BCll",
+        "content": "intellectual compatibility is the operating system.\n\nchemistry is the ux.\n\ncharacter is the security model.",
+        "time": "2026-01-16T01:21:58.000Z",
+        "stats": {
+            "likes": "430",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/signulll"
     }
 ]
