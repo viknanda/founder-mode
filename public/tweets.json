@@ -10450,5 +10450,135 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/signulll"
+    },
+    {
+        "id": "2013013681248817246",
+        "name": "Balaji",
+        "handle": "@balajis",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Balaji",
+        "content": "Free speech is open borders for ideology.",
+        "time": "2026-01-18T22:20:36.000Z",
+        "stats": {
+            "likes": "1036",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/balajis"
+    },
+    {
+        "id": "2013005584757342231",
+        "name": "Tara Viswanathan",
+        "handle": "@TaraViswanathan",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Tara%20Viswanathan",
+        "content": "You can do anything, but you cannot do everything. \n\nEven more true with AI.",
+        "time": "2026-01-18T21:48:25.000Z",
+        "stats": {
+            "likes": "35",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/TaraViswanathan"
+    },
+    {
+        "id": "2012992140851196089",
+        "name": "Leila Hormozi",
+        "handle": "@LeilaHormozi",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Leila%20Hormozi",
+        "content": "The life you want is on the other side of everything you’re terrified to let go of.",
+        "time": "2026-01-18T20:55:00.000Z",
+        "stats": {
+            "likes": "821",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/LeilaHormozi"
+    },
+    {
+        "id": "2012947708399513895",
+        "name": "amy",
+        "handle": "@amypretzel",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=amy",
+        "content": "after years of grinding, i noticed something: the people i respected most weren't the ones who bragged about sleepless nights.\n\nthey were calm. present. reliable.\n\nturns out consistency requires energy, and energy requires rest. there's no way around it.",
+        "time": "2026-01-18T17:58:27.000Z",
+        "stats": {
+            "likes": "76",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/amypretzel"
+    },
+    {
+        "id": "2013071795943813417",
+        "name": "Farzad ",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad%20",
+        "content": "Tesla is becoming a semiconductor company that happens to make robots & big batteries.",
+        "time": "2026-01-19T02:11:31.000Z",
+        "stats": {
+            "likes": "1374",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "id": "2013165686680416347",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "AI is adapting to us faster than we are adapting to it.",
+        "time": "2026-01-19T08:24:37.000Z",
+        "stats": {
+            "likes": "9820",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2013164524606775544",
+        "name": "Greg Brockman",
+        "handle": "@gdb",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Greg%20Brockman",
+        "content": "agents are kinda magic",
+        "time": "2026-01-19T08:20:00.000Z",
+        "stats": {
+            "likes": "2017",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/gdb"
+    },
+    {
+        "id": "2013282457076826176",
+        "name": "Lucas Crespo ",
+        "handle": "@lucas__crespo",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Lucas%20Crespo%20",
+        "content": "The bottlenecks are not technical anymore, they are creative",
+        "time": "2026-01-19T16:08:37.000Z",
+        "stats": {
+            "likes": "10",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/lucas__crespo"
+    },
+    {
+        "id": "2013350759732031918",
+        "name": "signüll",
+        "handle": "@signulll",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sign%C3%BCll",
+        "content": "the most important business deals get done over imessage.",
+        "time": "2026-01-19T20:40:02.000Z",
+        "stats": {
+            "likes": "106",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/signulll"
+    },
+    {
+        "id": "2013333935208464687",
+        "name": "Jacob Eiting",
+        "handle": "@jeiting",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jacob%20Eiting",
+        "content": "addicted to building things",
+        "time": "2026-01-19T19:33:10.000Z",
+        "stats": {
+            "likes": "34",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/jeiting"
     }
 ]
