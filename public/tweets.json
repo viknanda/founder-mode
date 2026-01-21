@@ -10580,5 +10580,148 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/jeiting"
+    },
+    {
+        "id": "2013324918025294050",
+        "name": "Jeff Wang",
+        "handle": "@jeffwsurf",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jeff%20Wang",
+        "content": "Humans to Agents\n\n2025: 1:1\n2026: 1:5\n2027: 1:20",
+        "time": "2026-01-19T18:57:20.000Z",
+        "stats": {
+            "likes": "55",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/jeffwsurf"
+    },
+    {
+        "id": "2013395274702450838",
+        "name": "Marc Randolph",
+        "handle": "@marcrandolph",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc%20Randolph",
+        "content": "Get your foot in the door and you’ve won half the battle.",
+        "time": "2026-01-19T23:36:55.000Z",
+        "stats": {
+            "likes": "651",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/marcrandolph"
+    },
+    {
+        "id": "2013265020780753058",
+        "name": "joyce",
+        "handle": "@henloitsjoyce",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=joyce",
+        "content": "job for the new decade: chief slop officer",
+        "time": "2026-01-19T14:59:20.000Z",
+        "stats": {
+            "likes": "33",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/henloitsjoyce"
+    },
+    {
+        "id": "2013680423029682479",
+        "name": "David J Phillips",
+        "handle": "@davj",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=David%20J%20Phillips",
+        "content": "I don't know a single person who works in tech and hasn't seriously thought about quitting and running a small off-the-grid farm in the middle of nowhere",
+        "time": "2026-01-20T18:29:59.000Z",
+        "stats": {
+            "likes": "2825",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/davj"
+    },
+    {
+        "id": "2013751975960035393",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "Universal high income",
+        "time": "2026-01-20T19:49:01.000Z",
+        "stats": {
+            "likes": "75851",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2013618082019959071",
+        "name": "Guillermo Rauch",
+        "handle": "@rauchg",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Guillermo%20Rauch",
+        "content": "The world belongs to the fast",
+        "time": "2026-01-20T14:22:16.000Z",
+        "stats": {
+            "likes": "1864",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/rauchg"
+    },
+    {
+        "id": "2013750223055487400",
+        "name": "Julie Zhuo",
+        "handle": "@joulee",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Julie%20Zhuo",
+        "content": "The more agents do, the more annoying the human 'reviewer' job becomes.\n\nHumanity -- always trading one problem for another.",
+        "time": "2026-01-20T23:07:21.000Z",
+        "stats": {
+            "likes": "137",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/joulee"
+    },
+    {
+        "id": "2013537459162824993",
+        "name": "BURKOV",
+        "handle": "@burkov",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=BURKOV",
+        "content": "Developers always hated writing docs.\n\nNow that's all they do.",
+        "time": "2026-01-20T09:01:54.000Z",
+        "stats": {
+            "likes": "1458",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/burkov"
+    },
+    {
+        "id": "2013537090227655076",
+        "name": "Ky-Nam",
+        "handle": "@withkynam",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Ky-Nam",
+        "content": "founder 5 years ago: CEO and CTO\n\nfounder now: builder, creator, storyteller, content machine, personal brand manager, linkedin influencer, twitter shitposter",
+        "time": "2026-01-20T09:00:26.000Z",
+        "stats": {
+            "likes": "69",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/withkynam"
+    },
+    {
+        "id": "2013912406599045337",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "AI is a supersonic tsunami",
+        "time": "2026-01-21T09:51:49.000Z",
+        "stats": {
+            "likes": "68956",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2013870666358087691",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "The solution to anxiety is action.",
+        "time": "2026-01-21T07:05:57.000Z",
+        "stats": {
+            "likes": "20012",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
     }
 ]
