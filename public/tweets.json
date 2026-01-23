@@ -10723,5 +10723,109 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2014034287247630682",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "The fundamental human disease is separation, and its symptom is loneliness.",
+        "time": "2026-01-21T17:56:07.000Z",
+        "stats": {
+            "likes": "9480",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2014286249025298751",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Self-directed learning through AIs is an autodidact’s paradise.",
+        "time": "2026-01-22T10:37:20.000Z",
+        "stats": {
+            "likes": "17080",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2014314741183779048",
+        "name": "Peter H. Diamandis, MD",
+        "handle": "@PeterDiamandis",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Peter%20H.%20Diamandis%2C%20MD",
+        "content": "If you're given a choice, take both. Don't accept false either/or tradeoffs.",
+        "time": "2026-01-22T12:30:33.000Z",
+        "stats": {
+            "likes": "241",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/PeterDiamandis"
+    },
+    {
+        "id": "2014086165796733095",
+        "name": "Dan",
+        "handle": "@aidaniil",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Dan",
+        "content": "lock in bro",
+        "time": "2026-01-21T21:22:16.000Z",
+        "stats": {
+            "likes": "35",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/aidaniil"
+    },
+    {
+        "id": "2014067225297101119",
+        "name": "Leila Hormozi",
+        "handle": "@LeilaHormozi",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Leila%20Hormozi",
+        "content": "It’s pretty hard to lose if you just keep showing up. Endurance is a competitive advantage.",
+        "time": "2026-01-21T20:07:00.000Z",
+        "stats": {
+            "likes": "2621",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/LeilaHormozi"
+    },
+    {
+        "id": "2014059293843267677",
+        "name": "Hubert Thieblot",
+        "handle": "@hthieblot",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Hubert%20Thieblot",
+        "content": "The next billion-dollar founder has 16 followers on X rn.\n   \nI will find you & fund you!",
+        "time": "2026-01-21T19:35:29.000Z",
+        "stats": {
+            "likes": "4209",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/hthieblot"
+    },
+    {
+        "id": "2014517011187909094",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "For quality of life, it is better to err on the side of being an optimist and wrong, rather than a pessimist and right",
+        "time": "2026-01-23T01:54:18.000Z",
+        "stats": {
+            "likes": "158640",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2014426182578733089",
+        "name": "Luke Wroblewski",
+        "handle": "@LukeW",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Luke%20Wroblewski",
+        "content": "first the good news... anyone can make software now.\nnow, the bad news... anyone can make software now.",
+        "time": "2026-01-22T19:53:22.000Z",
+        "stats": {
+            "likes": "66",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/LukeW"
     }
 ]
