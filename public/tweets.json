@@ -10983,5 +10983,148 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/shauseth"
+    },
+    {
+        "id": "2015493871078388205",
+        "name": "Anton Osika – eu/acc",
+        "handle": "@antonosika",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Anton%20Osika%20%E2%80%93%20eu%2Facc",
+        "content": "When everyone can build, making people care is the hard part",
+        "time": "2026-01-25T18:35:59.000Z",
+        "stats": {
+            "likes": "489",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/antonosika"
+    },
+    {
+        "id": "2015536390482886670",
+        "name": "Oliver Cameron",
+        "handle": "@olivercameron",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Oliver%20Cameron",
+        "content": "This age of research will be defined by world models.",
+        "time": "2026-01-25T21:24:57.000Z",
+        "stats": {
+            "likes": "84",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/olivercameron"
+    },
+    {
+        "id": "2015350050428436843",
+        "name": "trish",
+        "handle": "@_trish_xD",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=trish",
+        "content": "learn fundamentals so deeply that frameworks feel optional",
+        "time": "2026-01-25T09:04:30.000Z",
+        "stats": {
+            "likes": "3488",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/_trish_xD"
+    },
+    {
+        "id": "2015519201042313440",
+        "name": "Kyle Jeong",
+        "handle": "@kylejeong",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Kyle%20Jeong",
+        "content": "SF bros will buy a whole Mac Mini to host \n@moltbot\n but not have a bedframe at home",
+        "time": "2026-01-25T20:16:38.000Z",
+        "stats": {
+            "likes": "69",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/kylejeong"
+    },
+    {
+        "id": "2015760428207571116",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Work with hardcore people on hardcore things.",
+        "time": "2026-01-26T12:15:11.000Z",
+        "stats": {
+            "likes": "17079",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2016343169651409407",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "There’s no point in learning custom tools, workflows, or languages anymore.",
+        "time": "2026-01-28T02:50:48.000Z",
+        "stats": {
+            "likes": "14563",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2016246484727955854",
+        "name": "gaut",
+        "handle": "@0xgaut",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=gaut",
+        "content": "every company is begging for an idea guy right now",
+        "time": "2026-01-27T20:26:36.000Z",
+        "stats": {
+            "likes": "2204",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/0xgaut"
+    },
+    {
+        "id": "2016196503644033521",
+        "name": "Vlad Tenev",
+        "handle": "@vladtenev",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Vlad%20Tenev",
+        "content": "Many shifts feel controversial right until they feel obvious. Access has followed that arc every time.",
+        "time": "2026-01-27T17:08:00.000Z",
+        "stats": {
+            "likes": "521",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/vladtenev"
+    },
+    {
+        "id": "2015960650619519387",
+        "name": "signüll",
+        "handle": "@signulll",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sign%C3%BCll",
+        "content": "meditation is not what you think.",
+        "time": "2026-01-27T01:30:48.000Z",
+        "stats": {
+            "likes": "789",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/signulll"
+    },
+    {
+        "id": "2016670722286915922",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "Tech victory is decided by velocity of innovation",
+        "time": "2026-01-29T00:32:22.000Z",
+        "stats": {
+            "likes": "1918",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2016678286718337074",
+        "name": "Matt Shumer",
+        "handle": "@mattshumer_",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Matt%20Shumer",
+        "content": "Make something agents want",
+        "time": "2026-01-29T01:02:26.000Z",
+        "stats": {
+            "likes": "212",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/mattshumer_"
     }
 ]
