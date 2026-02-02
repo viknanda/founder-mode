@@ -11126,5 +11126,83 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/mattshumer_"
+    },
+    {
+        "id": "2016892599659790376",
+        "name": "Jim Cramer",
+        "handle": "@jimcramer",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Jim%20Cramer",
+        "content": "It's the collapse of software and the ascent of hardware and it is staggering. Just staggering",
+        "time": "2026-01-29T15:14:02.000Z",
+        "stats": {
+            "likes": "2225",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/jimcramer"
+    },
+    {
+        "id": "2017499271298453623",
+        "name": "Audrey",
+        "handle": "@audrlo",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Audrey",
+        "content": "hustling 24/7 is stupid.\n\nyou can't negotiate your way out of rest.",
+        "time": "2026-01-31T07:24:44.000Z",
+        "stats": {
+            "likes": "111",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/audrlo"
+    },
+    {
+        "id": "2017870041644249097",
+        "name": "sadkat",
+        "handle": "@sadkatwt",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sadkat",
+        "content": "Software Developer is the new name of unemployment.",
+        "time": "2026-02-01T07:58:02.000Z",
+        "stats": {
+            "likes": "4406",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/sadkatwt"
+    },
+    {
+        "id": "2018055768080077010",
+        "name": "Itamar Golan ",
+        "handle": "@ItakGol",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Itamar%20Golan%20",
+        "content": "Vibe coding security is the next big market.",
+        "time": "2026-02-01T20:16:03.000Z",
+        "stats": {
+            "likes": "259",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ItakGol"
+    },
+    {
+        "id": "2017998935256699293",
+        "name": "Zane Hengsperger",
+        "handle": "@zanehengsperger",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Zane%20Hengsperger",
+        "content": "manufacturing capacity wins wars",
+        "time": "2026-02-01T16:30:13.000Z",
+        "stats": {
+            "likes": "473",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/zanehengsperger"
+    },
+    {
+        "id": "2018034001647432047",
+        "name": "Emma Waldron Chen",
+        "handle": "@EmmaBWaldron",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Emma%20Waldron%20Chen",
+        "content": "Silicon Valley is not a place, it’s a mindset.",
+        "time": "2026-02-01T18:49:33.000Z",
+        "stats": {
+            "likes": "7",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/EmmaBWaldron"
     }
 ]
