@@ -11386,5 +11386,200 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/jaykreps"
+    },
+    {
+        "id": "2020335576508252177",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Nothing worse than a slow failure.",
+        "time": "2026-02-08T03:15:12.000Z",
+        "stats": {
+            "likes": "20535",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2020419433249091857",
+        "name": "Greg Brockman",
+        "handle": "@gdb",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Greg%20Brockman",
+        "content": "going to soon feel how inefficient it’s been to do work with a computer",
+        "time": "2026-02-08T08:48:25.000Z",
+        "stats": {
+            "likes": "5368",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/gdb"
+    },
+    {
+        "id": "2020351971224641772",
+        "name": "Logan Kilpatrick",
+        "handle": "@OfficialLoganK",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Logan%20Kilpatrick",
+        "content": "Reminder, it’s only February 7th, this year is going to be wild. Buckle up!",
+        "time": "2026-02-08T04:20:20.000Z",
+        "stats": {
+            "likes": "2790",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/OfficialLoganK"
+    },
+    {
+        "id": "2020307318941110678",
+        "name": "Peter Steinberger ",
+        "handle": "@steipete",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Peter%20Steinberger%20",
+        "content": "vibe coding is a slur",
+        "time": "2026-02-08T01:18:29.000Z",
+        "stats": {
+            "likes": "1449",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/steipete"
+    },
+    {
+        "id": "2020312685494309213",
+        "name": "will brown",
+        "handle": "@willccbb",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=will%20brown",
+        "content": "a set of agents is an \"agency\"",
+        "time": "2026-02-08T01:44:14.000Z",
+        "stats": {
+            "likes": "144",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/willccbb"
+    },
+    {
+        "id": "2020630007186337868",
+        "name": "Farzad ",
+        "handle": "@farzyness",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Farzad%20",
+        "content": "Pain tolerance is the biggest moat.",
+        "time": "2026-02-08T22:45:09.000Z",
+        "stats": {
+            "likes": "149",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/farzyness"
+    },
+    {
+        "id": "2020573380924305579",
+        "name": "Sheel Mohnot",
+        "handle": "@pitdesi",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sheel%20Mohnot",
+        "content": "The greatest rebrand in enterprise software history is calling consulting revenue “forward deployed engineering.”",
+        "time": "2026-02-08T19:00:09.000Z",
+        "stats": {
+            "likes": "2161",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pitdesi"
+    },
+    {
+        "id": "2020387569029222735",
+        "name": "Mark Essien",
+        "handle": "@markessien",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Mark%20Essien",
+        "content": "Pivot now to focus on business with physical assets. AI will decimate anything not on land and in the real world.",
+        "time": "2026-02-08T06:41:48.000Z",
+        "stats": {
+            "likes": "343",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/markessien"
+    },
+    {
+        "id": "2020581213396975658",
+        "name": "alisa rae .☘︎ ݁˖",
+        "handle": "@RaeAlisa_",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=alisa%20rae%20.%E2%98%98%EF%B8%8E%20%DD%81%CB%96",
+        "content": "he’s not a vibe coder he’s an Agentic Engineer",
+        "time": "2026-02-08T19:31:16.000Z",
+        "stats": {
+            "likes": "130",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/RaeAlisa_"
+    },
+    {
+        "id": "2021759166868557831",
+        "name": "Cristóbal Valenzuela",
+        "handle": "@c_valenzuelab",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Crist%C3%B3bal%20Valenzuela",
+        "content": "2026 is the year we enter the normalization of magic.",
+        "time": "2026-02-12T01:32:02.000Z",
+        "stats": {
+            "likes": "123",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/c_valenzuelab"
+    },
+    {
+        "id": "2022471216276340948",
+        "name": "Sridhar Vembu",
+        "handle": "@svembu",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sridhar%20Vembu",
+        "content": "It is easy to mistake prestige for quality.",
+        "time": "2026-02-14T00:41:28.000Z",
+        "stats": {
+            "likes": "618",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/svembu"
+    },
+    {
+        "id": "2022242892237164716",
+        "name": "Quinn Slack",
+        "handle": "@sqs",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Quinn%20Slack",
+        "content": "If you haven't changed at least 50% of your direction/roadmap/plans in the last 4 weeks, you are making a very risky choice.",
+        "time": "2026-02-13T09:34:11.000Z",
+        "stats": {
+            "likes": "684",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/sqs"
+    },
+    {
+        "id": "2022837875658617201",
+        "name": "Dan",
+        "handle": "@aidaniil",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Dan",
+        "content": "Took half a day off today\n\nResting is a part of founder mode",
+        "time": "2026-02-15T00:58:26.000Z",
+        "stats": {
+            "likes": "46",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/aidaniil"
+    },
+    {
+        "id": "2022970090107687176",
+        "name": "Sergiu  AI Directories",
+        "handle": "@s_chiriac",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sergiu%20%20AI%20Directories",
+        "content": "We used to call them Cron Jobs.\nNow we call them AI Agents.\n\nSame automation. More GPU ",
+        "time": "2026-02-15T09:43:49.000Z",
+        "stats": {
+            "likes": "748",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/s_chiriac"
+    },
+    {
+        "id": "2022837326637121740",
+        "name": "Pedro Domingos",
+        "handle": "@pmddomingos",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pedro%20Domingos",
+        "content": "If OpenAI can do it, so can you.",
+        "time": "2026-02-15T00:56:15.000Z",
+        "stats": {
+            "likes": "178",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmddomingos"
     }
 ]
