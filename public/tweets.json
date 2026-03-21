@@ -11581,5 +11581,343 @@
             "replies": "0"
         },
         "companyUrl": "https://x.com/pmddomingos"
+    },
+    {
+        "id": "2022907370515677674",
+        "name": "Theo - t3.gg",
+        "handle": "@theo",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Theo%20-%20t3.gg",
+        "content": "Crazy how English became a programming language before HTML did",
+        "time": "2026-02-15T05:34:35.000Z",
+        "stats": {
+            "likes": "3556",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/theo"
+    },
+    {
+        "id": "2023110109228896342",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "Fate is an irony maxxer",
+        "time": "2026-02-15T17:30:39.000Z",
+        "stats": {
+            "likes": "63943",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2023481258639286401",
+        "name": "Greg Brockman",
+        "handle": "@gdb",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Greg%20Brockman",
+        "content": "taste is a new core skill",
+        "time": "2026-02-16T19:35:01.000Z",
+        "stats": {
+            "likes": "10460",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/gdb"
+    },
+    {
+        "id": "2023493210065228262",
+        "name": "Craig Weiss",
+        "handle": "@craigzLiszt",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Craig%20Weiss",
+        "content": "the next dominant customer category won’t be B2B or B2C\n\nit’s B2A: business to agent",
+        "time": "2026-02-16T20:22:30.000Z",
+        "stats": {
+            "likes": "411",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/craigzLiszt"
+    },
+    {
+        "id": "2023324751406698647",
+        "name": "Uttam",
+        "handle": "@uttam_singhk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Uttam",
+        "content": "If you’re looking for a job remember: you are not just competing with other humans anymore.\n\nyou are competing with a $20/month tool that works 24/7, never gets tired and constantly learns new skills while improving as we speak.",
+        "time": "2026-02-16T09:13:06.000Z",
+        "stats": {
+            "likes": "214",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/uttam_singhk"
+    },
+    {
+        "id": "2024704647341232182",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Careers are dead. Jobs are dying. Opportunities arising.",
+        "time": "2026-02-20T04:36:19.000Z",
+        "stats": {
+            "likes": "38187",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2024646249694318667",
+        "name": "Cailyn Y.",
+        "handle": "@cailynyongyong",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Cailyn%20Y.",
+        "content": "gonna win no matter what",
+        "time": "2026-02-20T00:44:16.000Z",
+        "stats": {
+            "likes": "87",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/cailynyongyong"
+    },
+    {
+        "id": "2025291601267098107",
+        "name": "Yun-Ta Tsai",
+        "handle": "@yunta_tsai",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Yun-Ta%20Tsai",
+        "content": "In the age of AI, be human.",
+        "time": "2026-02-21T19:28:40.000Z",
+        "stats": {
+            "likes": "329",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/yunta_tsai"
+    },
+    {
+        "id": "2026655633357857068",
+        "name": "sam",
+        "handle": "@samdape",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=sam",
+        "content": "you basically need to be unemployed rn to keep up",
+        "time": "2026-02-25T13:48:51.000Z",
+        "stats": {
+            "likes": "20585",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/samdape"
+    },
+    {
+        "id": "2027981651012473197",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Pure software is rapidly becoming un-investable.",
+        "time": "2026-03-01T05:37:58.000Z",
+        "stats": {
+            "likes": "24097",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2028020699592331633",
+        "name": "Blair Dulder CPA™ ",
+        "handle": "@runaway_vol",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Blair%20Dulder%20CPA%E2%84%A2%20",
+        "content": "when you sleep your brain is updating the weights",
+        "time": "2026-03-01T08:13:08.000Z",
+        "stats": {
+            "likes": "2897",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/runaway_vol"
+    },
+    {
+        "id": "2029142431405392034",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "It’s not about junior vs senior, it’s about “good with AI” vs “not good with AI.”",
+        "time": "2026-03-04T10:30:29.000Z",
+        "stats": {
+            "likes": "17702",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2029602422331682823",
+        "name": "MATT GRAY",
+        "handle": "@matt_gray_",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=MATT%20GRAY",
+        "content": "OpenClaw is a 2026 Tamagotchi",
+        "time": "2026-03-05T16:58:20.000Z",
+        "stats": {
+            "likes": "142",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/matt_gray_"
+    },
+    {
+        "id": "2029784599694561686",
+        "name": "Max Gazor",
+        "handle": "@maxgazor",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Max%20Gazor",
+        "content": "Dear God, please give me the confidence of a 30 year old VC who has only lost money and blogs about conviction.",
+        "time": "2026-03-06T05:02:14.000Z",
+        "stats": {
+            "likes": "746",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/maxgazor"
+    },
+    {
+        "id": "2030692366802100515",
+        "name": "Grant Brown",
+        "handle": "@gbtechnologia",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Grant%20Brown",
+        "content": "Better to be loved by end users and misunderstood by Sand Hill Road, than loved by Sand Hill Road and misunderstood by end users",
+        "time": "2026-03-08T17:09:23.000Z",
+        "stats": {
+            "likes": "20",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/gbtechnologia"
+    },
+    {
+        "id": "2031417847721693613",
+        "name": "Itamar Golan ",
+        "handle": "@ItakGol",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Itamar%20Golan%20",
+        "content": "OpenAI acquired OpenClaw\n\nFaceBook acquired MoltBook\n\nChoose your company name carefully…",
+        "time": "2026-03-10T17:12:11.000Z",
+        "stats": {
+            "likes": "4978",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/ItakGol"
+    },
+    {
+        "id": "2031509742502457419",
+        "name": "Pedro Domingos",
+        "handle": "@pmddomingos",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pedro%20Domingos",
+        "content": "AI is the process by which money is transferred from VCs to Nvidia.",
+        "time": "2026-03-10T23:17:20.000Z",
+        "stats": {
+            "likes": "1023",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmddomingos"
+    },
+    {
+        "id": "2032351291436085528",
+        "name": "Felix Lee",
+        "handle": "@felixleezd",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Felix%20Lee",
+        "content": "In a place full of technologist, be an artist.",
+        "time": "2026-03-13T07:01:21.000Z",
+        "stats": {
+            "likes": "768",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/felixleezd"
+    },
+    {
+        "id": "2032486491595923805",
+        "name": "robin",
+        "handle": "@zebird0",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=robin",
+        "content": "I wonder if typos will become high status in the future\n\nBecause it’ll confirm that you wrote the thot yourself with no AI",
+        "time": "2026-03-13T15:58:36.000Z",
+        "stats": {
+            "likes": "279",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/zebird0"
+    },
+    {
+        "id": "2033117428696457669",
+        "name": "Greg Brockman",
+        "handle": "@gdb",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Greg%20Brockman",
+        "content": "if you can imagine it, you can build it",
+        "time": "2026-03-15T09:45:43.000Z",
+        "stats": {
+            "likes": "9179",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/gdb"
+    },
+    {
+        "id": "2033179018070282347",
+        "name": "Marc Andreessen ",
+        "handle": "@pmarca",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Marc%20Andreessen%20",
+        "content": "It’s time to Close The Tabs.",
+        "time": "2026-03-15T06:52:13.000Z",
+        "stats": {
+            "likes": "1165",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/pmarca"
+    },
+    {
+        "id": "2033220362906075551",
+        "name": "kepano",
+        "handle": "@kepano",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=kepano",
+        "content": "your edge is whatever you know that the models don't know",
+        "time": "2026-03-15T16:34:44.000Z",
+        "stats": {
+            "likes": "4245",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/kepano"
+    },
+    {
+        "id": "2032893617644384525",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Software was eaten by AI.",
+        "time": "2026-03-14T18:56:22.000Z",
+        "stats": {
+            "likes": "21394",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2033416520613732595",
+        "name": "Naval",
+        "handle": "@naval",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Naval",
+        "content": "Coding an app is the new starting a podcast.",
+        "time": "2026-03-16T05:34:12.000Z",
+        "stats": {
+            "likes": "27298",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/naval"
+    },
+    {
+        "id": "2034168476559118401",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "Matter,\nEnergy &\nIntelligence",
+        "time": "2026-03-18T07:22:12.000Z",
+        "stats": {
+            "likes": "111450",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
+    },
+    {
+        "id": "2034526226703077652",
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Elon%20Musk",
+        "content": "Google will win the AI race in the West, China on Earth and SpaceX in space",
+        "time": "2026-03-19T07:03:46.000Z",
+        "stats": {
+            "likes": "7515",
+            "replies": "0"
+        },
+        "companyUrl": "https://x.com/elonmusk"
     }
 ]
