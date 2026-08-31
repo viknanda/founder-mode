@@ -1,6 +1,3 @@
-// Removed static import
-// import tweetsData from './tweets.json';
-
 // Vercel Web Analytics
 import { inject } from '@vercel/analytics';
 inject();
@@ -8,24 +5,21 @@ inject();
 const TWEETS_PER_BATCH = 100;
 const ROTATION_MS = 30000; // 30 seconds
 
-// Time period distribution (relative to current date)
-const TIME_DISTRIBUTION = {
-  fresh: 0.10,      // <= 1 month (target 10%)
-  recent: 0.25,     // <= 1 year (target 25%)
-  mid: 0.35,        // 1-3 years (target 35%)
-  historical: 0.30  // > 3 years (target 30%)
+// Evergreen Era-based Distribution (Modern: 34%, Growth: 33%, Classic: 33%)
+const ERA_DISTRIBUTION = {
+  modern: 0.34,   // 2025-2026 (Modern / AI Wave)
+  growth: 0.33,   // 2021-2024 (Unicorn & Tech Boom)
+  classic: 0.33   // 2006-2020 (Classic / Vintage Web)
 };
 
-
-// let userOffset = 0; // Removed in refactor
-let tweetsData = []; // State for fetched data
+let tweetsData = []; // State for fetched dataset
 
 async function init() {
   const feedContainer = document.getElementById('feed');
   const tweetTemplate = document.getElementById('tweet-template');
   const timerElement = document.getElementById('timer');
 
-  // Fetch Data
+  // Fetch Dataset
   try {
     const response = await fetch(`/tweets.json?t=${Date.now()}`); // Cache busting
     if (!response.ok) {
@@ -33,49 +27,40 @@ async function init() {
     }
     const text = await response.text();
     tweetsData = JSON.parse(text);
-    console.log(`Loaded ${tweetsData.length} tweets.`);
   } catch (err) {
     console.error("Failed to load tweets:", err);
-    feedContainer.textContent = "Failed to load hype. Try again later.";
+    if (feedContainer) {
+      feedContainer.textContent = "Failed to load hype. Try again later.";
+    }
     return;
   }
 
   // State
-  let currentSeedIndex = Date.now(); // Start fresh always (was based on 30s bucket)
-  let nextRefreshTime = Date.now() + ROTATION_MS; // Initial full 30s
+  let currentSeedIndex = Date.now();
+  let nextRefreshTime = Date.now() + ROTATION_MS;
 
   function updateFeed() {
+    if (!feedContainer || !tweetTemplate) return;
     const seedKey = `epoch-${currentSeedIndex}`;
-
-    // Select Tweets with time-balanced distribution
     const currentTweets = getStratifiedSubset(tweetsData, seedKey, TWEETS_PER_BATCH);
 
-    // DEBUG: Log refresh event
-    console.log(`[Refresh] Seed: ${seedKey}, First Tweet: "${currentTweets[0]?.content.substring(0, 20)}..."`);
-
-    // Clear & Render
     feedContainer.innerHTML = '';
-
-
-
-    // Render tweets
     renderFeed(currentTweets, feedContainer, tweetTemplate);
-
-
   }
 
   function updateTimer() {
     const now = Date.now();
     const msLeft = nextRefreshTime - now;
 
-    // Auto-advance if time is up - trigger full page reload
+    // Auto-advance feed smoothly when time is up
     if (msLeft <= 0) {
-      location.reload();
+      currentSeedIndex = Date.now();
+      updateFeed();
+      nextRefreshTime = Date.now() + ROTATION_MS;
       return;
     }
 
     const secsLeft = Math.ceil(msLeft / 1000);
-
     if (timerElement) {
       timerElement.textContent = `Let's Go 🚀: ${secsLeft}s (Click to refresh)`;
     }
@@ -84,23 +69,16 @@ async function init() {
   // Initial Render
   updateFeed();
 
-  // Timer Loop
-  setInterval(() => {
-    updateTimer();
-  }, 100);
+  // Timer Loop (100ms interval for smooth ticking)
+  setInterval(updateTimer, 100);
 
-  // Global function for inline onclick (Safari compatibility)
+  // Smooth in-memory refresh
   window.handleRefreshClick = function () {
     const btn = document.getElementById('timer');
-
-    // 1. Advance content
-    currentSeedIndex = Date.now(); // Guaranteed unique seed
+    currentSeedIndex = Date.now();
     updateFeed();
-
-    // 2. Reset Timer to full 30s
     nextRefreshTime = Date.now() + ROTATION_MS;
 
-    // Visual feedback
     if (btn) {
       btn.style.borderColor = '#fff';
       setTimeout(() => {
@@ -109,10 +87,11 @@ async function init() {
     }
   };
 
-  // Also keep document listener as fallback
+  // Event listener on timer button
   document.addEventListener('click', (e) => {
     const btn = e.target.closest('#timer');
     if (!btn) return;
+    e.preventDefault();
     window.handleRefreshClick();
   });
 }
@@ -123,19 +102,19 @@ if (document.readyState === 'loading') {
   init();
 }
 
-/* --- Core Logic --- */
+/* --- Core Algorithms --- */
 
-// A simple seeded PRNG (Mulberry32)
+// Deterministic PRNG (Mulberry32)
 function mulberry32(a) {
   return function () {
     var t = a += 0x6D2B79F5;
     t = Math.imul(t ^ t >>> 15, t | 1);
     t ^= t + Math.imul(t ^ t >>> 7, t | 61);
     return ((t ^ t >>> 14) >>> 0) / 4294967296;
-  }
+  };
 }
 
-// Convert string seed to integer
+// Convert string seed to 128-bit integer hash
 function cyrb128(str) {
   let h1 = 1779033703, h2 = 3144134277,
     h3 = 1013904242, h4 = 2773480762;
@@ -153,54 +132,49 @@ function cyrb128(str) {
   return (h1 ^ h2 ^ h3 ^ h4) >>> 0;
 }
 
-// Classify tweet into time period
-// Classify tweet into time period based on relative age
-function getTimePeriod(tweet) {
-  const tweetDate = new Date(tweet.time);
-  const now = new Date();
-  const daysAgo = (now - tweetDate) / (1000 * 60 * 60 * 24);
-  const yearsAgo = daysAgo / 365.25;
-
-  if (daysAgo <= 30) return 'fresh';          // Within past month
-  if (yearsAgo <= 1) return 'recent';         // 1 month to 1 year
-  if (yearsAgo <= 3) return 'mid';            // 1-3 years ago
-  return 'historical';                        // Older than 3 years
+// Classify tweet into tech era based on year
+function getEra(tweet) {
+  const year = new Date(tweet.time).getFullYear();
+  if (year >= 2025) return 'modern';      // 2025-2026 (Modern / AI Wave)
+  if (year >= 2021) return 'growth';      // 2021-2024 (Unicorn & Tech Boom)
+  return 'classic';                       // 2006-2020 (Classic / Vintage Web)
 }
 
-// Stratified sampling to maintain time period distribution
+// Stratified sampling to project evenly from each era
 function getStratifiedSubset(allTweets, seedKey, count) {
+  if (!allTweets || allTweets.length === 0) return [];
+  if (allTweets.length <= count) return [...allTweets];
+
   const seed = cyrb128(seedKey);
   const random = mulberry32(seed);
 
-  // Calculate target counts for each period
+  // Target counts per era
   const counts = {
-    fresh: Math.round(count * TIME_DISTRIBUTION.fresh),
-    recent: Math.round(count * TIME_DISTRIBUTION.recent),
-    mid: Math.round(count * TIME_DISTRIBUTION.mid),
-    historical: Math.round(count * TIME_DISTRIBUTION.historical)
+    modern: Math.round(count * ERA_DISTRIBUTION.modern),
+    growth: Math.round(count * ERA_DISTRIBUTION.growth),
+    classic: Math.round(count * ERA_DISTRIBUTION.classic)
   };
 
-  // Adjust for rounding errors
-  const total = counts.fresh + counts.recent + counts.mid + counts.historical;
-  if (total < count) counts.fresh += (count - total);
-  if (total > count) counts.fresh -= (total - count);
+  // Adjust for rounding differences
+  const total = counts.modern + counts.growth + counts.classic;
+  if (total < count) counts.modern += (count - total);
+  if (total > count) counts.modern -= (total - count);
 
-  // Separate tweets by time period
+  // Group tweets into era buckets
   const buckets = {
-    fresh: [],
-    recent: [],
-    mid: [],
-    historical: []
+    modern: [],
+    growth: [],
+    classic: []
   };
 
   allTweets.forEach(tweet => {
-    const period = getTimePeriod(tweet);
-    if (buckets[period]) {
-      buckets[period].push(tweet);
+    const era = getEra(tweet);
+    if (buckets[era]) {
+      buckets[era].push(tweet);
     }
   });
 
-  // Fisher-Yates shuffle each bucket with seeded random
+  // Fisher-Yates shuffle with seeded random
   const shuffleBucket = (bucket) => {
     const shuffled = [...bucket];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -210,51 +184,34 @@ function getStratifiedSubset(allTweets, seedKey, count) {
     return shuffled;
   };
 
-  buckets.fresh = shuffleBucket(buckets.fresh);
-  buckets.recent = shuffleBucket(buckets.recent);
-  buckets.mid = shuffleBucket(buckets.mid);
-  buckets.historical = shuffleBucket(buckets.historical);
+  buckets.modern = shuffleBucket(buckets.modern);
+  buckets.growth = shuffleBucket(buckets.growth);
+  buckets.classic = shuffleBucket(buckets.classic);
 
-  let result = [];
+  // Assemble quota slices
+  const selectedModern = buckets.modern.slice(0, counts.modern);
+  const selectedGrowth = buckets.growth.slice(0, counts.growth);
+  const selectedClassic = buckets.classic.slice(0, counts.classic);
 
-  // Fill according to distribution targets
-  // Note: If a bucket doesn't have enough tweets, we just take what we have. 
-  // In a robust system we'd backfill from others, but for now this is fine.
-  result = result.concat(buckets.fresh.slice(0, counts.fresh));
-  result = result.concat(buckets.recent.slice(0, counts.recent));
-  result = result.concat(buckets.mid.slice(0, counts.mid));
-  result = result.concat(buckets.historical.slice(0, counts.historical));
+  let result = [...selectedModern, ...selectedGrowth, ...selectedClassic];
 
-  // Final shuffle of the whole result
-  const selected = shuffleBucket(result);
-
-  console.log(`Selected ${selected.length} tweets - Fresh: ${counts.fresh}, Recent: ${counts.recent}, Mid: ${counts.mid}, Historical: ${counts.historical} (from ${allTweets.length} total in dataset)`);
-
-  return selected;
-}
-
-// Keep old function for reference (not used)
-function getSeededSubset(allTweets, seedKey, count) {
-  const seed = cyrb128(seedKey);
-  const random = mulberry32(seed);
-
-  // Fisher-Yates Shuffle with seeded random
-  const shuffled = [...allTweets];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  // Backfill fallback in case any era has fewer items than requested quota
+  if (result.length < count) {
+    const chosenSet = new Set(result);
+    const pool = shuffleBucket(allTweets.filter(t => !chosenSet.has(t)));
+    const needed = count - result.length;
+    result = result.concat(pool.slice(0, needed));
   }
 
-  return shuffled.slice(0, count);
+  // Final seeded shuffle across combined batch
+  return shuffleBucket(result);
 }
 
-
-/* --- Rendering --- */
+/* --- Rendering & Formatting --- */
 
 function renderFeed(tweets, container, tTemplate) {
-  tweets.forEach((tweet, index) => {
-    // 1. Determine size
-    const likesCount = parseStats(tweet.stats.likes);
+  tweets.forEach((tweet) => {
+    const likesCount = parseStats(tweet.stats?.likes);
     let sizeClass = '';
 
     if (likesCount > 400000) {
@@ -263,78 +220,81 @@ function renderFeed(tweets, container, tTemplate) {
       sizeClass = 'tile-wide';
     }
 
-    // 2. Render Tweet
     const tweetNode = createTweetElement(tweet, tTemplate, sizeClass);
     container.appendChild(tweetNode);
   });
 }
 
-function parseStats(statString) {
-  if (statString.includes('M')) {
-    return parseFloat(statString) * 1000000;
+// Unified metric parser (handles numbers, '120k', '1.5M', commas)
+function parseStats(stat) {
+  if (typeof stat === 'number') return isNaN(stat) ? 0 : stat;
+  if (!stat) return 0;
+  const clean = String(stat).trim().toUpperCase();
+  if (clean.endsWith('M')) {
+    return (parseFloat(clean) || 0) * 1000000;
   }
-  if (statString.includes('k')) {
-    return parseFloat(statString) * 1000;
+  if (clean.endsWith('K')) {
+    return (parseFloat(clean) || 0) * 1000;
   }
-  return parseInt(statString);
+  return parseInt(clean.replace(/,/g, ''), 10) || 0;
+}
+
+function toHex(stat) {
+  const num = parseStats(stat);
+  return '0x' + Math.floor(num).toString(16).toUpperCase();
+}
+
+// Security: Validate URL protocol to prevent javascript: XSS
+function sanitizeUrl(url, fallbackHandle) {
+  if (url && typeof url === 'string') {
+    const trimmed = url.trim();
+    if (trimmed.startsWith('https://') || trimmed.startsWith('http://')) {
+      return trimmed;
+    }
+  }
+  const cleanHandle = (fallbackHandle || '').replace('@', '').trim();
+  return cleanHandle ? `https://x.com/${cleanHandle}` : '#';
 }
 
 function createTweetElement(data, template, sizeClass) {
   const clone = template.content.cloneNode(true);
-
   const article = clone.querySelector('.tweet-card');
   if (sizeClass) article.classList.add(sizeClass);
 
   const headerLink = clone.querySelector('.tweet-header');
-  const handle = data.handle.replace('@', '');
-  // Update headerLink.href to use companyUrl if available, otherwise default to X.com profile
   if (headerLink) {
-    headerLink.href = data.companyUrl || `https://x.com/${handle}`;
+    headerLink.href = sanitizeUrl(data.companyUrl, data.handle);
+    headerLink.target = '_blank';
+    headerLink.rel = 'noopener noreferrer';
   }
 
   const img = clone.querySelector('.avatar');
-  img.src = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(data.name)}`;
-  img.alt = data.name;
+  if (img) {
+    img.src = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(data.name || 'Founder')}`;
+    img.alt = data.name || 'Avatar';
+  }
 
-  clone.querySelector('.name').textContent = data.name;
-  clone.querySelector('.handle').textContent = data.handle;
+  // Safe DOM binding using textContent
+  clone.querySelector('.name').textContent = data.name || '';
+  clone.querySelector('.handle').textContent = data.handle || '';
   clone.querySelector('.time').textContent = formatDate(data.time);
-  clone.querySelector('.tweet-content').textContent = data.content;
+  clone.querySelector('.tweet-content').textContent = data.content || '';
 
-  // Stats - Hex & Flame Mode
   const likesContainer = clone.querySelector('.stat');
   if (likesContainer) {
     const likesEl = likesContainer.querySelector('.likes');
     if (likesEl) {
-      likesEl.textContent = toHex(data.stats.likes);
+      likesEl.textContent = toHex(data.stats?.likes);
     }
   }
-  // Remove replies logic as per instruction
-  // clone.querySelector('.replies').textContent = data.stats.replies;
 
   return clone;
 }
 
-function toHex(statString) {
-  let num;
-  if (typeof statString === 'string') {
-    if (statString.toUpperCase().includes('M')) {
-      num = parseFloat(statString) * 1000000;
-    } else if (statString.toUpperCase().includes('K')) {
-      num = parseFloat(statString) * 1000;
-    } else {
-      num = parseInt(statString.replace(/,/g, ''), 10);
-    }
-  } else {
-    num = statString;
-  }
-
-  if (isNaN(num)) return '0x0';
-  return '0x' + Math.floor(num).toString(16).toUpperCase();
-}
-
 function formatDate(dateString) {
   const date = new Date(dateString);
+  if (isNaN(date.getTime())) return '';
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   return `${months[date.getMonth()]} ${date.getFullYear()}`;
 }
+
